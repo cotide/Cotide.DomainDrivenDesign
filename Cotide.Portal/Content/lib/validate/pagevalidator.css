@@ -1,0 +1,55 @@
+.msgNormal
+{
+    background: url(validate_normal.gif) no-repeat scroll left center;
+    padding: 5px 15px 5px 28px;
+    height: 15px;
+    line-height: 15px;
+    width: 210px;
+    color: #999999;
+}
+.msgOnFocus
+{
+    background: url("msg_bg.png") no-repeat scroll 5px -142px #E9F0FF;
+    padding: 9px 15px 2px 28px;
+    border: #00a8ff 1px solid;
+    height: 15px;
+     width: 210px;
+    line-height: 15px;
+}
+.validation-summary-errors
+{
+    background-color: #FFF2F2;
+    border: 1px solid #FF6600; /*height: 15px;*/
+    line-height: 15px;
+    margin:5px 15px 5px 10px;
+     width: 90%;
+}
+.msgError
+{
+    background: url("msg_bg.png") no-repeat scroll 5px 8px #FFF2F2;
+    border: 1px solid #FF6600;
+    height: 15px;
+    line-height: 15px;
+    padding: 9px 15px 2px 28px;
+     width: 210px;
+}
+.msgError a
+{
+    color: red;
+}
+.msgOK
+{
+    background: url("msg_bg.png") no-repeat scroll 5px -245px transparent;
+    padding: 5px 15px 5px 28px;
+    height: 15px;
+    line-height: 15px;
+     width: 210px;
+}
+.msgAjaxing
+{
+    background: url(wait.gif) no-repeat scroll left center transparent;
+    padding: 5px 15px 5px 28px; /*border: #F05400 1px solid;*/
+    height: 15px;
+    line-height: 15px;
+     width: 210px;
+}

@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "用户管理";
+    Layout = "~/Views/Shared/_PageLayout.cshtml";
+}
+@model List<Cotide.Domain.Dtos.UserDto>
+
+<div class="wrapper">
+
+    <div class="row" style="margin:20px;">
+      
+        @using (Html.BeginForm("Add", "User", FormMethod.Post, new { @Id = "loginForm" }))
+        {
+            <table>
+                <tr>
+                    <th colspan="2">新增用户</th> 
+                </tr>
+                <tr>
+                    <td> 昵称:</td>
+                    <td> @Html.TextBox("RealName")</td>
+                </tr>
+                <tr>
+                    <td> 用户名:</td>
+                    <td> @Html.TextBox("UserName")</td>
+                </tr>
+                <tr>
+                    <td> 密码:</td>
+                    <td>@Html.TextBox("Paw")</td>
+                </tr>
+                <tr>
+                    <td>  </td>
+                    <td><input type="submit" style="margin:5px;" value="提交" /></td>
+                </tr>
+            </table>
+              
+        }
+        </div>
+            <div class="row" style="margin:20px;">
+                <h4>目前用户  </h4>
+                <p>
+                    @if (Model != null)
+                    {
+                        <table>
+                            <tr>
+                                <th>序号</th>
+                                <th>昵称</th>
+                                <th>用户名</th>
+                                <th>密码</th>
+                                <th>操作</th>
+                            </tr>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.Id</td>
+                                    <td>@item.RealName</td>
+                                    <td>@item.UserName</td>
+                                    <td>@item.Paw</td>
+                                    <td> <a href="@Url.Action("Delete", "User", new { @userId = item.Id })">删除</a></td>
+                                </tr>
+                            }
+                        </table>
+            }
+
+                </p>
+
+            </div>
+
+        </div>

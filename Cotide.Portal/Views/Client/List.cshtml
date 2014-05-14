@@ -1,0 +1,171 @@
+﻿@{
+    ViewBag.Title = "客户端管理";
+    Layout = "~/Views/Shared/_PageLayout.cshtml";
+}
+@using Cotide.Domain.Dtos
+@using Cotide.Domain.Entity
+@using Cotide.Framework.Extensions
+@model IList<Cotide.Domain.Dtos.ClientDto>
+
+@{
+    var clientModel = ViewData["client"] as ClientDto;
+}
+<div class="wrapper">
+
+    <div class="row" style="margin:20px;">
+
+        @if (clientModel != null)
+        {
+            using (Html.BeginForm("Update", "Client", FormMethod.Post, new { @Id = "loginForm" }))
+            {
+                <table>
+                    <tr>
+                        <th colspan="2">修改客户端 
+                        
+                            <span style="float:right;"><a href="@Url.Action("List","Client",null)">新增</a></span>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td style="width:200px;"> 客户端名称:</td>
+                        <td>
+                            @Html.Hidden("Id",clientModel.Id)
+                            @Html.TextBox("Name", clientModel.Name)
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 客户端识别号:</td>
+                        <td>@Html.TextBox("ClientIdentifier", clientModel.ClientIdentifier, new { @style = "width:500px;" })</td>
+                    </tr>
+                    <tr>
+                        <td> 客户端公钥:</td>
+                        <td>@Html.TextBox("ClientSecret", clientModel.ClientSecret, new{ @style="width:500px;" })</td>
+                    </tr>
+                    <tr>
+                        <td> 用户名:</td>
+                        <td> @Html.TextBox("UserName",clientModel.UserName)</td>
+                    </tr>
+                    <tr>
+                        <td> 密码:</td>
+                        <td>@Html.TextBox("Paw", clientModel.Paw)</td>
+                    </tr>
+
+                    <tr>
+                        <td> 应用简介:</td>
+                        <td>@Html.TextArea("Desc",clientModel.Desc)</td>
+                    </tr>
+                    <tr>
+                        <td> 状态:</td>
+                        <td>@Html.DropDownList("ClientState", (ViewData["Type"] as IList<SelectListItem>))</td>
+                    </tr>
+                    <tr>
+                        <td> 回调地址:</td>
+                        <td>@Html.TextBox("RedirectUrl", clientModel.RedirectUrl, new{ @style="width:500px;" })</td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td><input style="margin:5px;" type="submit"   value="提交" /></td>
+                    </tr>
+                </table>
+
+            }
+        }
+        else
+        {
+            using (Html.BeginForm("Add", "Client", FormMethod.Post, new { @Id = "loginForm" }))
+            {
+                <table>
+                    <tr>
+                        <th colspan="2">新增客户端</th>
+                    </tr>
+                    <tr>
+                        <td style="width:200px;"> 客户端名称:</td>
+                        <td>
+                            @Html.TextBox("Name") 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 客户端识别号:</td>
+                        <td>@Html.TextBox("ClientIdentifier", Guid.NewGuid().ToString("N"), new { @style = "width:500px;" })</td>
+                    </tr>
+                    <tr>
+                        <td> 客户端公钥:</td>
+                        <td>@Html.TextBox("ClientSecret", Guid.NewGuid().ToString("N"), new { @style = "width:500px;" })</td>
+                    </tr>
+                    <tr>
+                        <td> 用户名:</td>
+                        <td> @Html.TextBox("UserName")</td>
+                    </tr>
+                    <tr>
+                        <td> 密码:</td>
+                        <td>@Html.TextBox("Paw")</td>
+                    </tr>
+
+                    <tr>
+                        <td> 应用简介:</td>
+                        <td>@Html.TextArea("Desc")</td>
+                    </tr>
+                    <tr>
+                        <td> 状态:</td>
+                        <td>@Html.DropDownList("ClientState", (ViewData["Type"] as IList<SelectListItem>)) </td>
+                    </tr>
+                    <tr>
+                        <td> 回调地址:</td>
+                        <td>@Html.TextBox("RedirectUrl","", new{ @style="width:500px;" })</td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td><input type="submit" style="margin:5px;" value="提交" /></td>
+                    </tr>
+                </table>
+
+            }
+        }
+
+
+    </div>
+    <div class="row" style="margin:20px;">
+        <h4>目前客户端  </h4>
+        <p>
+            @if (Model != null)
+            {
+                <table>
+                    <tr>
+                        <th>Id</th>
+                        <th style="width:100px;">客户端名称</th>
+                        <th>用户名</th>
+                        <th>密码</th>
+                        <th>客户端识别号</th>
+                        <th>客户端公钥</th>  
+                        <th style="width:50px;">状态</th>
+                        <th style="width:200px;">描述</th>
+                        <th>回调地址</th>
+                        <th style="width:200px;">操作</th>
+                    </tr>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td>@item.UserName</td>
+                            <td>@item.Paw</td>
+                            <td>@item.ClientIdentifier</td>
+                            <td>@item.ClientSecret</td> 
+                            <td>@item.ClientState.GetDefaultDesc()</td> 
+                            <td>@item.Desc</td>
+                            <td>@item.RedirectUrl</td>
+                            <td>
+                                <a href="@Url.Action("List", "Client", new { @id = item.Id })">修改</a>
+                                |
+                                <a href="@Url.Action("Delete", "Client", new { @clientId = item.Id })">删除</a>
+                            </td>
+                        </tr>
+                    }
+                </table>
+            }
+
+        </p>
+
+    </div>
+
+</div>

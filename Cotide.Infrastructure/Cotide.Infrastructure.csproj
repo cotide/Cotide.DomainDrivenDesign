@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B69BEBE2-210B-4E1D-8F13-9C2BE89C093D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cotide.Infrastructure</RootNamespace>
+    <AssemblyName>Cotide.Infrastructure</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoMapper, Version=3.1.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AutoMapper.3.1.0\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4">
+      <HintPath>..\packages\AutoMapper.3.1.0\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Other\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuildCode.cs">
+      <DependentUpon>BuildCode.tt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Context\Adapter\EFUnitOfWorkContext.cs" />
+    <Compile Include="Context\DefaultDBContext.cs" />
+    <Compile Include="Context\Init\DbContextInitializer.cs" />
+    <Compile Include="Mapper\ClientAuthorizationMapper.cs" />
+    <Compile Include="Mapper\Partial\ClientAuthorizationMapper.generated.cs" />
+    <Compile Include="Mapper\Partial\ClientMapper.generated.cs" />
+    <Compile Include="Mapper\Partial\UserInfoMapper.generated.cs" />
+    <Compile Include="Repositories\Base\EFRepositoryBase.cs" />
+    <Compile Include="Repositories\Partial\ClientAuthorizationRepository.generated.cs" />
+    <Compile Include="Repositories\Partial\ClientRepository.generated.cs" />
+    <Compile Include="Repositories\Partial\UserInfoRepository.generated.cs" />
+    <Compile Include="Tool\Initialize\DatabaseInitializer.cs" />
+    <Compile Include="Tool\Initialize\InitData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="BuildCode.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>BuildCode.cs</LastGenOutput>
+      <LastOutputs>
+..\Cotide.Domain\Contracts\Repositories\Partial\IClientAuthorizationRepository.generated.cs
+..\Cotide.Domain\Contracts\Repositories\Partial\IClientRepository.generated.cs
+..\Cotide.Domain\Contracts\Repositories\Partial\IUserInfoRepository.generated.cs
+.\Mapper\Partial\ClientAuthorizationMapper.generated.cs
+.\Mapper\Partial\ClientMapper.generated.cs
+.\Mapper\Partial\UserInfoMapper.generated.cs
+.\Repositories\Partial\ClientAuthorizationRepository.generated.cs
+.\Repositories\Partial\ClientRepository.generated.cs
+.\Repositories\Partial\UserInfoRepository.generated.cs
+</LastOutputs>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Repositories\Base\RepositoriesDesign.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cotide.Domain\Cotide.Domain.csproj">
+      <Project>{836705A7-0529-45E5-9392-3DA25BE915BE}</Project>
+      <Name>Cotide.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cotide.Framework\Cotide.Framework.csproj">
+      <Project>{3475C007-A405-4FF1-AB8D-0AC3112CEE66}</Project>
+      <Name>Cotide.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

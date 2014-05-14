@@ -1,0 +1,452 @@
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Portal.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Portal.pdb
+D:\Person\Shop\Shop\Cotide.Portal\bin\Castle.Core.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Castle.Windsor.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Framework.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Portal.Controllers.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Microsoft.Web.Infrastructure.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Newtonsoft.Json.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Net.Http.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Net.Http.Formatting.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Net.Http.WebRequest.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.Helpers.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.Http.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.Http.WebHost.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.Mvc.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.Razor.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.WebPages.Deployment.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.WebPages.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.WebPages.Razor.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Framework.pdb
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Portal.Controllers.pdb
+D:\Person\Shop\Shop\Cotide.Portal\bin\Castle.Core.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\Castle.Windsor.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\Newtonsoft.Json.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Net.Http.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Net.Http.Formatting.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Net.Http.WebRequest.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.Helpers.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.Http.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.Http.WebHost.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.Mvc.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.Razor.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.WebPages.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.WebPages.Deployment.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\System.Web.WebPages.Razor.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Net.Http.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Web.Http.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\Person\Shop\Shop\Cotide.Portal\obj\Debug\Cotide.Portal.csprojResolveAssemblyReference.cache
+D:\Person\Shop\Shop\Cotide.Portal\obj\Debug\Cotide.Portal.dll
+D:\Person\Shop\Shop\Cotide.Portal\obj\Debug\Cotide.Portal.pdb
+D:\Person\Shop\Shop\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Person\Shop\Shop\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Domain.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Infrastructure.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\EntityFramework.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Domain.pdb
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Infrastructure.pdb
+D:\Person\Shop\Shop\Cotide.Portal\bin\EntityFramework.xml
+D:\Person\Shop\Shop\Cotide.Portal\bin\AutoMapper.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.QueryServices.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Tasks.dll
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.QueryServices.pdb
+D:\Person\Shop\Shop\Cotide.Portal\bin\Cotide.Tasks.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Portal.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Portal.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Castle.Core.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Castle.Windsor.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Domain.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Framework.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Infrastructure.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Portal.Controllers.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.QueryServices.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Tasks.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Microsoft.Web.Infrastructure.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Newtonsoft.Json.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Net.Http.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Net.Http.Formatting.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Net.Http.WebRequest.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.Helpers.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.Http.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.Http.WebHost.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.Mvc.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.Razor.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.WebPages.Deployment.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.WebPages.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.WebPages.Razor.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\EntityFramework.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\AutoMapper.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Domain.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Framework.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Infrastructure.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Portal.Controllers.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.QueryServices.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Cotide.Tasks.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Castle.Core.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Castle.Windsor.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\Newtonsoft.Json.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Net.Http.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Net.Http.Formatting.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Net.Http.WebRequest.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.Helpers.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.Http.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.Http.WebHost.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.Mvc.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.Razor.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.WebPages.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.WebPages.Deployment.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\System.Web.WebPages.Razor.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\EntityFramework.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\AutoMapper.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Net.Http.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Web.Http.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\obj\Debug\Cotide.Portal.csprojResolveAssemblyReference.cache
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\obj\Debug\Cotide.Portal.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Portal\obj\Debug\Cotide.Portal.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\obj\Debug\Cotide.Portal.csprojResolveAssemblyReference.cache
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Portal.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Portal.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\AutoMapper.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Castle.Core.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Castle.Windsor.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Domain.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Framework.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Infrastructure.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Portal.Controllers.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.QueryServices.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Tasks.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Microsoft.AspNet.SignalR.Owin.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Microsoft.Web.Infrastructure.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Owin.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Net.Http.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Net.Http.Formatting.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Net.Http.WebRequest.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.Helpers.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.Http.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.Http.WebHost.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.Mvc.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.Razor.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.WebPages.Deployment.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.WebPages.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.WebPages.Razor.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\EntityFramework.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Domain.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Framework.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Infrastructure.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Portal.Controllers.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.QueryServices.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Cotide.Tasks.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\AutoMapper.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Castle.Core.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Castle.Windsor.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Net.Http.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Net.Http.Formatting.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Net.Http.WebRequest.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.Helpers.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.Http.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.Http.WebHost.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.Mvc.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.Razor.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.WebPages.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.WebPages.Deployment.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\System.Web.WebPages.Razor.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\EntityFramework.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Net.Http.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Web.Http.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\obj\Debug\Cotide.Portal.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\obj\Debug\Cotide.Portal.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Portal\bin\Newtonsoft.Json.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\obj\Debug\Cotide.Portal.csprojResolveAssemblyReference.cache
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Portal.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Portal.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\AutoMapper.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Castle.Core.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Castle.Windsor.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Domain.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Framework.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Infrastructure.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Portal.Controllers.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.QueryServices.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Tasks.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Microsoft.Web.Infrastructure.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Net.Http.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Net.Http.Formatting.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Net.Http.WebRequest.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.Helpers.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.Http.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.Http.WebHost.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.Mvc.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.Razor.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.WebPages.Deployment.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.WebPages.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.WebPages.Razor.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\EntityFramework.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Domain.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Framework.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Infrastructure.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Portal.Controllers.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.QueryServices.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Cotide.Tasks.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\AutoMapper.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Castle.Core.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Castle.Windsor.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Net.Http.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Net.Http.Formatting.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Net.Http.WebRequest.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.Helpers.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.Http.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.Http.WebHost.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.Mvc.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.Razor.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.WebPages.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.WebPages.Deployment.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\System.Web.WebPages.Razor.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\EntityFramework.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Net.Http.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Web.Http.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\obj\Debug\Cotide.Portal.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Portal\obj\Debug\Cotide.Portal.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\obj\Debug\Cotide.Portal.csprojResolveAssemblyReference.cache
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\obj\Debug\Cotide.Portal.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\obj\Debug\Cotide.Portal.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Portal.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Portal.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\AutoMapper.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Castle.Core.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Castle.Windsor.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Domain.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Framework.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Infrastructure.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Portal.Controllers.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.QueryServices.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Tasks.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Microsoft.Web.Infrastructure.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Net.Http.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Net.Http.Formatting.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Net.Http.WebRequest.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.Helpers.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.Http.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.Http.WebHost.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.Mvc.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.Razor.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.WebPages.Deployment.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.WebPages.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.WebPages.Razor.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\EntityFramework.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Domain.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Framework.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Infrastructure.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Portal.Controllers.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.QueryServices.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Cotide.Tasks.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\AutoMapper.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Castle.Core.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Castle.Windsor.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Net.Http.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Net.Http.Formatting.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Net.Http.WebRequest.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.Helpers.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.Http.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.Http.WebHost.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.Mvc.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.Razor.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.WebPages.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.WebPages.Deployment.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\System.Web.WebPages.Razor.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\EntityFramework.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Net.Http.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Web.Http.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Portal\bin\Newtonsoft.Json.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\AutoMapper.Net4.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Portal.dll.config
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Portal.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Portal.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\AutoMapper.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Castle.Core.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Castle.Windsor.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Domain.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Framework.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Infrastructure.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Portal.Controllers.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.QueryServices.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Tasks.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Microsoft.Web.Infrastructure.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Newtonsoft.Json.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Net.Http.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Net.Http.Formatting.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Net.Http.WebRequest.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.Helpers.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.Http.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.Http.WebHost.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.Mvc.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.Razor.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.WebPages.Deployment.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.WebPages.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.WebPages.Razor.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\EntityFramework.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Domain.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Framework.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Infrastructure.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Portal.Controllers.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.QueryServices.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Cotide.Tasks.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\AutoMapper.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Castle.Core.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Castle.Windsor.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Net.Http.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Net.Http.Formatting.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Net.Http.WebRequest.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.Helpers.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.Http.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.Http.WebHost.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.Mvc.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.Razor.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.WebPages.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.WebPages.Deployment.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\System.Web.WebPages.Razor.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\EntityFramework.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Net.Http.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Web.Http.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\obj\Debug\Cotide.Portal.csprojResolveAssemblyReference.cache
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\obj\Debug\Cotide.Portal.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\obj\Debug\Cotide.Portal.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Portal\bin\Newtonsoft.Json.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\AutoMapper.Net4.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Portal.dll.config
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Portal.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Portal.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\AutoMapper.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Castle.Core.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Castle.Windsor.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Domain.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Framework.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Infrastructure.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Portal.Controllers.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.QueryServices.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Tasks.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Microsoft.Web.Infrastructure.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Newtonsoft.Json.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Net.Http.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Net.Http.Formatting.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Net.Http.WebRequest.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.Helpers.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.Http.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.Http.WebHost.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.Mvc.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.Razor.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.WebPages.Deployment.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.WebPages.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.WebPages.Razor.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\EntityFramework.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Domain.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Framework.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Infrastructure.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Portal.Controllers.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.QueryServices.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Cotide.Tasks.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\AutoMapper.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Castle.Core.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Castle.Windsor.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\Newtonsoft.Json.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Net.Http.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Net.Http.Formatting.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Net.Http.WebRequest.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.Helpers.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.Http.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.Http.WebHost.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.Mvc.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.Razor.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.WebPages.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.WebPages.Deployment.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\System.Web.WebPages.Razor.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\EntityFramework.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Net.Http.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Web.Http.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Web.Mvc.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\obj\Debug\Cotide.Portal.csprojResolveAssemblyReference.cache
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\obj\Debug\Cotide.Portal.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Portal\obj\Debug\Cotide.Portal.pdb

@@ -1,0 +1,43 @@
+﻿<#+ 
+
+public class IEntityRepositoryTemplate : CSharpTemplate
+{
+    private T4ModelInfo _model;
+        
+    public IEntityRepositoryTemplate(T4ModelInfo model)
+    {
+        _model = model;
+    }
+
+    /// <summary>
+    /// 获取 生成的文件名，根据模型名定义
+    /// </summary>
+    public string FileName
+    {
+        get
+        { 
+            return string.Format("I{0}Repository.generated.cs", _model.Name);
+        }
+    }
+
+	public override string TransformText()
+	{
+#>
+using System; 
+using Cotide.Domain.Contracts.Repositories.Base;
+using Cotide.Domain<#= _model.UseModuleDir ? "." + _model.ModuleName : null #>;  
+namespace Cotide.Domain.Contracts.Repositories 
+{
+	/// <summary>
+    ///   仓储操作层接口——<#= _model.Description #>
+    /// </summary>
+    public partial interface I<#= _model.Name #>Repository : IRepository<<#= _model.Name #>, <#= _model.KeyTypeName #>>
+    {
+
+    }
+}
+<#+
+        return this.GenerationEnvironment.ToString();
+	}
+}
+#>

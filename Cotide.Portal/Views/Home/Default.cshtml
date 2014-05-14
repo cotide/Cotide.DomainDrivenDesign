@@ -1,0 +1,62 @@
+﻿@{
+    Layout = "~/Views/Shared/_PageLayout.cshtml";
+    ViewBag.Title = "首页";
+}
+@model List<Cotide.Domain.Dtos.ClientDto>
+@section PageHead{
+    <script type="text/javascript">
+        $(function() {
+            $("#appPanel").find("a[ref]").click(function() { 
+                $("#MainFrame_App").attr("src", $(this).attr("ref"));
+            });
+        });
+    </script>
+}
+
+<div class="wrapper">
+    <!-- 左导航 -->
+    <div class="nine">
+
+        <div class="row">
+            <h4 class="phead">应用使用 <i class="icon fire"></i></h4>
+            
+        </div>
+        <div>
+            <iframe name="MainFrame_App" id="MainFrame_App" 
+                    width="100%" 
+                    frameborder="0" 
+                    style="min-height: 860px;
+                                      height: 800px; 
+                                      display: inline;" 
+                    allowtransparency="true" 
+                    src="" scrolling="no"></iframe>
+        </div>
+
+    </div>
+    <!-- 右导航 -->
+    <div class="three">
+        <!-- 应用 -->
+        <ul id="appPanel" class="sidebar">
+            <li class="selected" style="background-color: #bc0704;">
+                <a style="color: #ffffff;" href="javascript:void(0);">目前应用</a>
+            </li>
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var item in Model)
+                {
+                    <li><a ref="@item.RedirectUrl" href="javascript:void(0);">@item.Name </a> </li>
+                }
+            } 
+
+        </ul>
+        <!--  资料 -->
+        <ul id="gonggao" class="sidebar">
+            <li class="selected" style="background-color: #8dbf35;">
+                <a style="color: #ffffff;" href="javascript:void(0);">相关导航</a>
+            </li>
+            <li><a href="#">OAuth2 协议说明</a></li>
+            <li><a href="#">OAuth2 DEMO</a></li>
+        </ul>
+
+    </div>
+</div>

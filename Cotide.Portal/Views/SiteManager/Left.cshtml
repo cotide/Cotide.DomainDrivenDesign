@@ -1,0 +1,130 @@
+﻿@{
+    ViewBag.Title = "101外卖网后台-管理页面";
+}
+<html>
+<head>
+    <title>101外卖网后台-管理页面</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <base target="main">
+    @Html.StyleSheet("menu/scriptbreaker.css")
+    @Html.JavaScript("jquery/jquery-1.10.2.min.js")
+    @Html.JavaScript("site/menu/scriptbreaker.js")
+    @Html.JavaScript("site/lib/panel/core.js")
+    <script type="text/javascript">
+        $(function () {
+            
+            $(".topnav").accordion({
+                accordion: false,
+                speed: 100,
+                closedSign: '',
+                openedSign: ''
+            });
+
+            $(window).resize(function () {
+                resizeMenu();
+            });
+            resizeMenu();
+        });
+        
+        function resizeMenu() {
+            var rightHeight = $(window).height();
+            var height = rightHeight;
+            height = height == 0 ? 600 : height;            
+            $("#l_nav_top").height(height);
+        }
+    </script>
+</head>
+<body>
+    <div id="l_nav_top" style="overflow-y: auto;overflow-x:hidden;background-color:#E5F3FB;">
+        <ul class="topnav">
+            <li><a href="../Site/Main" target="main">统计信息</a></li>
+            <li><a href="javascript:void(0);">商家管理</a>
+                <ul>
+                    <li><a href="javascript:void(0);">商家列表</a></li>
+                    <li><a href="javascript:void(0);">新增商家</a></li>
+                    <li><a href="javascript:void(0);">商家评论</a></li>
+                    <li><a href="javascript:void(0);">商家分类</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0);">订单管理</a>
+                <ul>
+                    <li class="active"><a href="javascript:void(0);">点餐订单列表</a></li>
+                    <li><a href="javascript:void(0);">新增点餐订单</a></li>
+                    <li><a href="javascript:void(0);">点餐订单统计信息</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0);">用户管理</a>
+                <ul>
+                    <li><a href="javascript:void(0);">用户列表</a></li>
+                    <li><a href="javascript:void(0);">用户积分管理</a></li>
+                    <li><a href="javascript:void(0);">用户统计</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0);">打印机状态</a>
+                <ul>
+                    <li><a href="javascript:void(0);">打印机列表</a></li>
+                    <li><a href="javascript:void(0);">新增打印机</a></li>
+                    <li><a href="javascript:void(0);">打印机状态</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0);">客服系统</a>
+                <ul>
+                    <li><a href="javascript:void(0);">新增订单</a></li>
+                    <li><a href="javascript:void(0);">检索订单</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0);">积分礼品</a>
+                <ul>
+                    <li><a href="javascript:void(0);">礼品管理</a></li>
+                    <li><a href="javascript:void(0);">新增礼品</a></li>
+                    <li><a href="javascript:void(0);">礼品分类管理</a></li>
+                    <li><a href="javascript:void(0);">新增礼品分类</a></li>
+                    <li><a href="javascript:void(0);">兑换管理</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0);">活动管理</a>
+                <ul>
+                    <li><a href="javascript:void(0);">特价秒餐</a></li>
+                    <li><a href="javascript:void(0);">添加活动</a></li>
+                    <li><a href="javascript:void(0);">活动订单</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0);">限时抢购</a>
+                <ul>
+                    <li><a href="javascript:void(0);">限时抢购管理</a></li>
+                    <li><a href="javascript:void(0);">添加限时抢购</a></li>
+                    <li><a href="javascript:void(0);">抢购订单</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0);">关于我们</a>
+                <ul>
+                    <li><a href="javascript:void(0);">分类管理</a></li>
+                    <li><a href="javascript:void(0);">文章管理</a></li>
+                    <li><a href="javascript:void(0);">添加文章</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0);">网站信息管理</a>
+                <ul>
+                    <li><a href="javascript:void(0);">参数设置</a></li>
+                    <li><a href="javascript:void(0);">网站设置</a></li>
+                    <li><a href="javascript:void(0);">公告管理</a></li>
+                    <li><a href="javascript:void(0);">友情链接</a></li>
+                    <li><a href="javascript:void(0);">推荐信息列表</a></li>
+                    <li><a href="javascript:void(0);">加盟信息列表</a></li>
+                    <li><a href="javascript:void(0);">推荐写字楼</a></li>
+                    <li><a href="javascript:void(0);">区域管理</a></li>
+                    <li><a href="javascript:void(0);">二级区域管理</a></li>
+                    <li><a href="javascript:void(0);">广告列表</a></li>
+                    <li><a href="javascript:void(0);">管理员</a></li>
+                    <li><a href="javascript:void(0);">区域管理员设置</a></li>
+                    <li><a href="javascript:void(0);">积分设置</a></li>
+                    <li><a href="javascript:void(0);">数据库备份</a></li>
+                    <li><a href="javascript:void(0);">幻灯片管理</a></li>
+                    <li><a href="javascript:void(0);">短信记录</a></li>
+                    <li><a href="javascript:void(0);">留言管理</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

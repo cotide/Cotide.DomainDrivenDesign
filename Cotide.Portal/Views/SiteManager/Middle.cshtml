@@ -1,0 +1,56 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width" />
+    <base target="main">
+    @Html.JavaScript("jquery/jquery-1.10.2.min.js")
+    @Html.JavaScript("lib/panel/skinPanel.js")
+    @Html.StyleSheet("menu/common.css")
+    <script>
+        $(function () {
+            $(window).resize(function () {
+                resizeSearchPanel();
+            });
+            resizeSearchPanel();
+        });
+        
+        function resizeSearchPanel() {
+            var rightHeight = $(window).height();
+            var height = rightHeight;
+            $("#line").height(height);
+        }
+    </script>
+</head>
+<body class="center_body">
+    <table cellpadding="0" cellspacing="0" align="center" style="" class="slider_line"
+        id="line">
+        <tr>
+            <td>
+                <a href="javascript:void(0);" class="slider_toggle" id="slider_toggle"></a>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">
+
+
+        $(function () {
+            $("#slider_toggle").click(function () {
+                var frameAdmin = parent.document.getElementsByTagName("frameset")[1].getAttribute('cols');
+
+                if (frameAdmin == "230,12,*") {
+                    parent.document.getElementById('frameAdmin').cols = "0,12,*";
+                } else {
+                    parent.document.getElementById('frameAdmin').cols = "230,12,*";
+
+                }
+
+            });
+
+        })
+    </script>
+</body>
+</html>

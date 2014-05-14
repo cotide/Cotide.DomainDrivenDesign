@@ -1,0 +1,60 @@
+﻿<#@ template language="C#" debug="True" #>
+<#@ output extension="cs" #>
+<#@ Assembly Name="System.Core" #>
+<#@ Assembly Name="$(SolutionDir)\Cotide.Framework\bin\Debug\Cotide.Framework.dll" #> 
+<#@ Assembly Name="$(SolutionDir)\Cotide.Domain\bin\Debug\Cotide.Domain.dll" #>
+<#@ import namespace="System.IO" #>
+<#@ Import Namespace="System.Linq" #>
+<#@ Import Namespace="System.Text" #>
+<#@ import namespace="System.Reflection" #>
+<#@ Import Namespace="System.Collections.Generic" #>
+<#@ Import Namespace="Cotide.Framework.Domain" #>  
+<#@ Import Namespace="Cotide.Framework" #>
+<#@ Import Namespace="Cotide.Framework" #>
+<#@ Import Namespace="Cotide.Framework.T4" #> 
+<#@ Import Namespace="System.Collections" #>  
+<#@ Import Namespace="Cotide.Framework.Extensions" #>  
+<#@ include file="T4Toolbox.tt" #> 
+<#@ include file="Tempany\EntityConfigurationTemplate.ttinclude" #>  
+<#@ include file="Tempany\IEntityRepositoryTemplate.ttinclude" #>  
+<#@ include file="Tempany\EntityRepositoryTemplate.ttinclude" #>  
+
+<#  
+    string currentPath = Path.GetDirectoryName(Host.TemplateFile); 
+    string projectPath =currentPath.Substring(0, currentPath.IndexOf(@"\T4"));
+    
+	 string solutionPath = currentPath.Substring(0, currentPath.IndexOf(@"\Cotide.Tests"));
+    string modelFile= Path.Combine(solutionPath, @"Cotide.Domain\bin\Debug\Cotide.Domain.dll");
+    byte[] fileData= File.ReadAllBytes(modelFile);
+    Assembly assembly = Assembly.Load(fileData);
+    Type baseType = typeof(EntityByType<>);
+    IEnumerable<Type> modelTypes = assembly.GetTypes().Where(m => m.IsAssignableToGenericType(baseType) && !m.IsAbstract);
+    foreach(Type modelType in modelTypes)
+    {
+        T4ModelInfo model = new T4ModelInfo(modelType, true); 
+        //实体映射类 
+        EntityConfigurationTemplate config = new EntityConfigurationTemplate(model);
+        var path = model.UseModuleDir 
+            ? string.Format(@"{0}\T4\OutPut\Mapper\{1}", projectPath, model.ModuleName)
+            : string.Format(@"{0}\T4\OutPut\Mapper", projectPath);
+        config.Output.Encoding = Encoding.UTF8;
+        config.RenderToFile(Path.Combine(path, config.FileName));
+
+        //实体仓储操作接口 
+        IEntityRepositoryTemplate irep= new IEntityRepositoryTemplate(model); 
+        path = model.UseModuleDir
+            ? string.Format(@"{0}\T4\OutPut\Repositories\Interface\{1}", projectPath, model.ModuleName)
+            : string.Format(@"{0}\T4\OutPut\Repositories\Interface\", projectPath);
+        irep.Output.Encoding = Encoding.UTF8;
+        irep.RenderToFile(Path.Combine(path, irep.FileName)); 
+         
+		 
+        //实体仓储操作实现
+        EntityRepositoryTemplate rep= new EntityRepositoryTemplate(model);
+        path = model.UseModuleDir
+            ? string.Format(@"{0}\T4\OutPut\Repositories\Impl\{1}", projectPath, model.ModuleName)
+            : string.Format(@"{0}\T4\OutPut\Repositories\Impl\", projectPath); 
+        rep.Output.Encoding = Encoding.UTF8;   
+        rep.RenderToFile(Path.Combine(path, rep.FileName));  
+    } 
+#>  

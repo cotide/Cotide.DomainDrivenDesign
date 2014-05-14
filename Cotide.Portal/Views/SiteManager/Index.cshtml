@@ -1,0 +1,30 @@
+﻿<!--
+/*
+ * ============================= << 版 权 声 明 >> =============================
+ * Copyright(c) 2010-2015 广州光汇科技信息有限公司, All Rights Reserved.
+ * ========================================================================
+*/
+-->
+@{
+    Layout = null;
+}
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <base target="main">
+</head>
+<frameset rows="115,*,23" frameborder="no" border="0" framespacing="0" id="indexFrame">
+        <frame src="@Url.Action("Top","Site")" noresize="noresize" frameborder="NO" name="topFrame" scrolling="no" marginwidth="0" marginheight="0" target="main" />
+            <frameset framespacing="0" cols="230,12,*"  rows="*" id="frameAdmin" name="frame">
+                @*登录类型 如果是normal 为默认菜单 如果为info 就会显示详细信息*@
+            <frame src="@Url.Action("Left","Site")" id="leftFrameAdmin" name="leftFrame" noresize="noresize" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" target="main" />
+            <frame src="@Url.Action("Middle","Site")" id="middleFrameAdmin" name="middleFrame" marginwidth="0" marginheight="0" frameborder="0" scrolling="auto" target="main" />
+            <frame src="@Url.Action("Main","Site")" id="indexFrameAdmin" name="main" marginwidth="0" marginheight="0" frameborder="0" scrolling="auto" target="_self" />
+            </frameset>     
+        <frame src="@Url.Action("Bottom","Site")" name="bottomFrame" scrolling="No" noresize="noresize" id="bottomFrame" title="bottomFrame" target="main" />
+    </frameset>
+<noframes>
+</noframes>
+</html>

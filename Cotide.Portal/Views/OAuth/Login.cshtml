@@ -1,0 +1,80 @@
+﻿@{
+    Layout = null;
+}
+@model Cotide.Portal.Controllers.ViewModels.OAuth.OauthLoginViewModel
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>应用授权</title>
+    @Html.Raw(TempData["alert"])
+    @Html.JavaScript("jquery/jquery-1.10.2.js")
+</head>
+<body>
+    <div>
+        <h1>应用授权</h1>
+        @if (Model.UserViewModel != null)
+{
+    using (Html.BeginForm(
+        "Authorize",
+        "Oauth",
+        FormMethod.Post,
+        new { @Id = "loginForm" }))
+    {
+                <input type="hidden" name="client_id" value="@Model.ClientId" />
+                <input type="hidden" name="response_type" value="@Model.ResponseType" />
+                <input type="hidden" name="state" value="@Model.State" />
+                <input type="hidden" name="redirect_uri" value="@Model.RedirectUrl" />
+                <input type="hidden" name="scope" value="snsapi_base" />
+                <p>尊敬的用户【@Model.UserViewModel.RealName】 是否允许应用 【@Model.ClentName】访问您的个人信息?</p>
+                <p>
+                    <input type="submit" value="授权" />
+                    <input type="button" onclick="javascript:window.location.href = '@Model.RedirectUrl' " value="取消" />
+                </p>
+            }
+        }
+        else
+        {
+            using (Html.BeginForm("AutoLogin", "Oauth", FormMethod.Post,
+                 new { @Id = "loginForm" }))
+            {
+                <div>@Html.ValidationExSummary("loginForm")</div>
+                <input type="hidden" name="client_id" value="@Model.ClientId" />
+                <input type="hidden" name="response_type" value="@Model.ResponseType" />
+                <input type="hidden" name="state" value="@Model.State" />
+                <input type="hidden" name="redirect_uri" value="@Model.RedirectUrl" />
+                <input type="hidden" name="scope" value="snsapi_base" />
+                <p>
+                    <label>用户名：</label>
+                    @Html.TextBoxEx("UserName", null, new ValidateOption()
+                            {
+                                Min = 5,
+                                Max = 20,
+                                RangeMsg = "输入用户名请在6-20位字符以内",
+                                EmptyMsg = "请输入用户名"
+                            })
+
+                    @Html.ValidationMessageEx("UserName")
+                </p>
+                <p>
+                    <label>密码：</label>
+                    @Html.PasswordEx("Paw", null, new PassValidateOption()
+                          {
+                              Min = 5,
+                              Max = 20,
+                              RangeMsg = "输入密码请在6-20位字符以内",
+                              EmptyMsg = "请输入密码"
+                          })
+                    @Html.ValidationMessageEx("Paw")
+                </p>
+                <p>
+                    <input name="" type="submit" class="button blue" value="授权" />
+                    <input name="取消" onclick="javascript:window.location.href='@Model.RedirectUrl'" type="button" class="button" value="取消" />
+                </p>
+            }
+        }
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="客户端">
+    <Position X="1.25" Y="0.958" Height="0.333" Width="0.721" />
+  </Comment>
+  <Comment CommentText="客户端鉴权信息">
+    <Position X="4.333" Y="0.802" Height="0.302" Width="1.158" />
+  </Comment>
+  <Comment CommentText="用户">
+    <Position X="7.604" Y="0.906" Height="0.312" Width="0.7" />
+  </Comment>
+  <Class Name="Cotide.Domain.Entity.Client">
+    <Position X="0.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAgAAAAQAAAwAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entity\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cotide.Domain.Entity.ClientAuthorization">
+    <Position X="3.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAACAAIAAAAAAAAAAAEAAAAAAAACAAABAAQ=</HashCode>
+      <FileName>Entity\ClientAuthorization.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Client" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Cotide.Domain.Entity.UserInfo">
+    <Position X="7" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Entity\UserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

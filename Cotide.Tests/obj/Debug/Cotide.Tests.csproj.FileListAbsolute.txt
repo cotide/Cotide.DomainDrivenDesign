@@ -1,0 +1,401 @@
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.pdb
+E:\Person\Shop\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.dll
+E:\Person\Shop\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.pdb
+E:\Person\Shop\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.csprojResolveAssemblyReference.cache
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.dll.config
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Domain.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Infrastructure.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\EntityFramework.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Framework.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Domain.pdb
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Infrastructure.pdb
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\EntityFramework.xml
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Framework.pdb
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.Configuration.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Web.Http.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Net.Http.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.xml
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.Configuration.xml
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Web.Http.xml
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.xml
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Net.Http.xml
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+E:\Person\Shop\Shop\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.csprojResolveAssemblyReference.cache
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.pdb
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.dll.config
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.dll
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.pdb
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.Configuration.dll
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.dll
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Domain.dll
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Framework.dll
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Infrastructure.dll
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\EntityFramework.dll
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Domain.pdb
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Framework.pdb
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Infrastructure.pdb
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.xml
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.Configuration.xml
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\bin\Debug\EntityFramework.xml
+C:\资料\Person\项目\EF_Shop\Shop\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.dll.config
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.pdb
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.Configuration.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Castle.Core.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Castle.Windsor.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Domain.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Framework.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Portal.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\EntityFramework.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\nunit.framework.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Web.Http.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Net.Http.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Domain.pdb
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Framework.pdb
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Portal.pdb
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.xml
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.Configuration.xml
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Castle.Core.xml
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Castle.Windsor.xml
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\EntityFramework.xml
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\nunit.framework.xml
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.pdb
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Web.Http.xml
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\System.Net.Http.xml
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+D:\Person\Shop\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.csprojResolveAssemblyReference.cache
+D:\Person\Shop\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.dll
+D:\Person\Shop\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.pdb
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\AutoMapper.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.QueryServices.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tasks.dll
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.QueryServices.pdb
+D:\Person\Shop\Shop\Cotide.Tests\bin\Debug\Cotide.Tasks.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.dll.config
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Tests.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Autofac.Configuration.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Autofac.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\AutoMapper.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\AutoMapper.Net4.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Castle.Core.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Castle.Windsor.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Domain.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Framework.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Portal.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.QueryServices.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Tasks.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\EntityFramework.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\nunit.framework.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\System.Web.Http.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\System.Net.Http.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Domain.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Framework.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Portal.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.QueryServices.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Tasks.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Autofac.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Autofac.Configuration.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\AutoMapper.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Castle.Core.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Castle.Windsor.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\EntityFramework.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\nunit.framework.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\System.Web.Http.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\System.Net.Http.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.csprojResolveAssemblyReference.cache
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tests\obj\Debug\Cotide.Tests.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\obj\Debug\Cotide.Tests.csprojResolveAssemblyReference.cache
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Tests.dll.config
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Tests.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Tests.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Autofac.Configuration.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Autofac.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\AutoMapper.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\AutoMapper.Net4.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Castle.Core.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Castle.Windsor.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Domain.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Framework.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Portal.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.QueryServices.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Tasks.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\EntityFramework.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\nunit.framework.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\System.Web.Http.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\System.Net.Http.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Owin.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Microsoft.AspNet.SignalR.Owin.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Domain.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Framework.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Portal.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.QueryServices.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Tasks.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Autofac.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Autofac.Configuration.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\AutoMapper.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Castle.Core.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Castle.Windsor.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\EntityFramework.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\nunit.framework.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\System.Web.Http.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\System.Net.Http.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\obj\Debug\Cotide.Tests.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tests\obj\Debug\Cotide.Tests.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\obj\Debug\Cotide.Tests.csprojResolveAssemblyReference.cache
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Tests.dll.config
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Tests.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Tests.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Autofac.Configuration.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Autofac.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\AutoMapper.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\AutoMapper.Net4.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Castle.Core.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Castle.Windsor.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Domain.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Framework.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Portal.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.QueryServices.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Tasks.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\EntityFramework.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\nunit.framework.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\System.Web.Http.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\System.Net.Http.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Domain.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Framework.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Portal.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.QueryServices.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Tasks.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Autofac.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Autofac.Configuration.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\AutoMapper.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Castle.Core.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Castle.Windsor.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\EntityFramework.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\nunit.framework.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\System.Web.Http.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\System.Net.Http.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\obj\Debug\Cotide.Tests.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tests\obj\Debug\Cotide.Tests.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\obj\Debug\Cotide.Tests.csprojResolveAssemblyReference.cache
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\obj\Debug\Cotide.Tests.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\obj\Debug\Cotide.Tests.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Tests.dll.config
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Tests.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Tests.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Autofac.Configuration.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Autofac.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\AutoMapper.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\AutoMapper.Net4.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Castle.Core.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Castle.Windsor.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Domain.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Framework.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Portal.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.QueryServices.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Tasks.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\EntityFramework.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\nunit.framework.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\System.Web.Http.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\System.Net.Http.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Domain.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Framework.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Portal.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.QueryServices.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Tasks.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Autofac.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Autofac.Configuration.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\AutoMapper.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Castle.Core.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Castle.Windsor.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\EntityFramework.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\nunit.framework.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\System.Web.Http.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\System.Net.Http.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\AutoMapper.Net4.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Tests.dll.config
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Tests.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Tests.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Autofac.Configuration.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Autofac.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\AutoMapper.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Castle.Core.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Castle.Windsor.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Domain.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Framework.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Infrastructure.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Portal.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.QueryServices.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Tasks.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\EntityFramework.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\nunit.framework.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\System.Web.Http.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\System.Net.Http.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Domain.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Framework.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Infrastructure.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Portal.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.QueryServices.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Tasks.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Autofac.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Autofac.Configuration.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\AutoMapper.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Castle.Core.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Castle.Windsor.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\EntityFramework.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\nunit.framework.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\System.Web.Http.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\System.Net.Http.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\obj\Debug\Cotide.Tests.csprojResolveAssemblyReference.cache
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\obj\Debug\Cotide.Tests.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\obj\Debug\Cotide.Tests.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\AutoMapper.Net4.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Tests.dll.config
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Tests.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Tests.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Autofac.Configuration.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Autofac.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\AutoMapper.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Castle.Core.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Castle.Windsor.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Domain.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Framework.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Portal.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.QueryServices.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Tasks.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\EntityFramework.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\nunit.framework.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\System.Web.Http.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\System.Net.Http.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Domain.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Framework.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Portal.Controllers.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Portal.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.QueryServices.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Cotide.Tasks.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Autofac.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Autofac.Configuration.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Autofac.Integration.WebApi.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\AutoMapper.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Castle.Core.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Castle.Windsor.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\EntityFramework.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\EntityFramework.SqlServer.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\nunit.framework.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\System.Web.Http.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\System.Net.Http.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\System.Web.Http.WebHost.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\bin\Debug\zh-Hans\System.Web.Http.WebHost.resources.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\obj\Debug\Cotide.Tests.csprojResolveAssemblyReference.cache
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\obj\Debug\Cotide.Tests.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tests\obj\Debug\Cotide.Tests.pdb

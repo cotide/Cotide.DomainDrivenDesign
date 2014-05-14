@@ -1,0 +1,51 @@
+﻿<#+
+// <copyright file="EntityRepositoryTemplate.tt" company="郭明锋@中国">
+//  Copyright © 郭明锋@中国. All Rights Reserved.
+// </copyright>
+
+public class EntityRepositoryTemplate : CSharpTemplate
+{
+    private T4ModelInfo _model;
+        
+    public EntityRepositoryTemplate(T4ModelInfo model)
+    {
+        _model = model;
+    }
+
+    /// <summary>
+    /// 获取 生成的文件名，根据模型名定义
+    /// </summary>
+    public string FileName
+    {
+        get
+        { 
+            return string.Format("{0}Repository.generated.cs", _model.Name);
+        }
+    }
+
+	public override string TransformText()
+	{
+#>
+ 
+using System;
+using System.ComponentModel.Composition;
+using System.Linq;
+using Cotide.Domain.Contracts.Repositories;
+using Cotide.Domain<#= _model.UseModuleDir ? "." + _model.ModuleName : null #>;
+using Cotide.Infrastructure.Repositories.Base; 
+
+
+namespace Cotide.Infrastructure.Repositories
+{
+	/// <summary>
+    ///   仓储操作层实现——<#= _model.Description #>
+    /// </summary> 
+    public partial class <#= _model.Name #>Repository : EFRepositoryBase<<#= _model.Name #>, <#= _model.KeyTypeName #>>, I<#= _model.Name #>Repository
+    { 
+	}
+}
+<#+
+        return this.GenerationEnvironment.ToString();
+	}
+}
+#>

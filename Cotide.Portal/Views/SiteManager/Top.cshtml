@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+<html>
+<head>
+    <title>101外卖网后台-管理页面</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <base target="main">
+    @Html.JavaScript("jquery/jquery-1.10.2.min.js")
+    @Html.StyleSheet("menu/common.css")
+    <script type="text/javascript">
+        function logout() {
+            if (confirm("确定要退出系统吗？"))
+                top.location = "/Site/LogOff";
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <div class="head_bg">
+        <div class="head_logo "></div>
+        <div class="head_list">
+            <ul>
+                <li>
+                    <a href="javascript:void(0);" title="退出系统" class="quite inline_block" onclick="logout()">退出系统</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <table class="user_bg">
+            <tr>
+                <td style="padding-left: 20px;">@ViewBag.LoginInfo</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

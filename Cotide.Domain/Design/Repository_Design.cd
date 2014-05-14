@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="仓储Content 接口">
+    <Position X="1.146" Y="1.781" Height="0.323" Width="1.648" />
+  </Comment>
+  <Comment CommentText="仓储实体基类接口">
+    <Position X="6.406" Y="1.719" Height="0.323" Width="1.346" />
+  </Comment>
+  <Interface Name="Cotide.Domain.Contracts.Repositories.Base.IRepositoryContext">
+    <Position X="0.75" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAgAAAAAAAAABAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Contracts\Repositories\Base\IRepositoryContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cotide.Domain.Contracts.Repositories.Base.IRepository&lt;TEntity&gt;">
+    <Position X="5.25" Y="2.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAAAAAAAQAAAAAAEAAEAAAAAACAAAAAA=</HashCode>
+      <FileName>Contracts\Repositories\Base\IRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Context" />
+    </ShowAsAssociation>
+  </Interface>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

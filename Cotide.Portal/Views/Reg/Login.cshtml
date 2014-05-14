@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "用户登录";
+    Layout = "~/Views/Shared/_PageLayout.cshtml";    
+}
+@model Cotide.Portal.Controllers.ViewModels.Login.UserLoginViewModel
+
+<div class="wrapper" style="padding-top: 20px;">
+    <div class="row">
+        <div class="twelve ">
+            <fieldset>
+                <legend>用户登录</legend>
+                @using (Html.BeginForm("Login", "Reg", FormMethod.Post, new  {  @Id = "loginForm"}))
+                {
+                    <div>@Html.ValidationExSummary("loginForm")</div>
+                    <p>
+                        <label>用户名：</label>
+                        @Html.TextBoxExFor(x => x.UserName, null, new ValidateOption()
+                            {
+                                Min = 5,
+                                Max = 20,
+                                RangeMsg = "输入用户名请在6-20位字符以内",
+                                EmptyMsg = "请输入用户名"
+                            })
+
+                        @Html.ValidationMessageExFor(x => x.UserName)
+                    </p>
+                    <p>
+                        <label>密码：</label>
+                        @Html.PasswordExFor(x => x.Paw, null, new PassValidateOption()
+                          {
+                              Min = 5,
+                              Max = 20,
+                              RangeMsg = "输入密码请在6-20位字符以内",
+                              EmptyMsg = "请输入密码"
+                          })
+                        @Html.ValidationMessageExFor(x => x.Paw)
+                    </p> 
+                    <p>
+                        <input name="" type="submit" class="button blue" value="提交" />
+                        <input name="重置" type="reset" class="button" value="重置" />
+                    </p> 
+                }
+            </fieldset>
+        </div>
+    </div>
+</div>

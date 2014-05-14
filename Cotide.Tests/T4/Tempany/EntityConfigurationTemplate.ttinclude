@@ -1,0 +1,66 @@
+﻿<#+ 
+public class EntityConfigurationTemplate : CSharpTemplate
+{
+    private T4ModelInfo _model;
+        
+    public EntityConfigurationTemplate(T4ModelInfo model)
+    {
+        _model = model;
+    }
+
+    /// <summary>
+    /// 获取 生成的文件名，根据模型名定义
+    /// </summary>
+    public string FileName
+    {
+        get
+        { 
+            return string.Format("{0}Mapper.generated.cs", _model.Name);
+        }
+    }
+
+	public override string TransformText()
+	{
+#> 
+using System;
+using System.Data.Entity.ModelConfiguration;
+using System.Data.Entity.ModelConfiguration.Configuration;
+ 
+using Cotide.Domain<#= _model.UseModuleDir ? "." + _model.ModuleName : null #>; 
+using Cotide.Framework.Mapper;
+
+namespace Cotide.Infrastructure.Mapper 
+{
+    /// <summary>
+    /// 实体类-数据表映射——<#= _model.Description #>
+    /// </summary>    
+	internal partial class <#= _model.Name #>Mapper : EntityTypeConfiguration<<#= _model.Name #>>, IEntityMapper
+    {
+        /// <summary>
+        /// 实体类-数据表映射构造函数——<#= _model.Description #>
+        /// </summary>
+        public <#= _model.Name #>Mapper()
+        {
+			<#= _model.Name #>ConfigurationAppend();
+        }
+		
+        /// <summary>
+        /// 额外的数据映射
+        /// </summary>
+        partial void <#= _model.Name #>ConfigurationAppend();
+		
+        /// <summary>
+        /// 将当前实体映射对象注册到当前数据访问上下文实体映射配置注册器中
+        /// </summary>
+        /// <param name="configurations">实体映射配置注册器</param>
+        public void RegistTo(ConfigurationRegistrar configurations)
+        {
+            configurations.Add(this);
+        }
+    }
+}
+<#+
+        return this.GenerationEnvironment.ToString();
+	}
+}
+#>

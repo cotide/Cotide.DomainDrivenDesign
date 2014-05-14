@@ -1,0 +1,402 @@
+@font-face {
+	font-family:digital;
+	src:url('/fonts/digital_7_italic.ttf') format('truetype');
+}
+/*!
+ * Name: restaurant_list.css
+ **/
+.restaurant_list {
+	min-height:200px;
+	list-style:none;
+	margin:0;
+	padding:0 0 0 0px;
+	border-left:1px dotted #999;
+	border:0;
+}
+body#restaurant .restaurant_list {
+	border:0;
+}
+.restaurant_list .restaurant {
+	clear:both;
+	position:relative;
+}
+.restaurant_list .restaurant .meta {
+	border-bottom:1px solid #d3d3d3;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:6px;
+	margin-top:2px;
+	position:relative;
+}
+.restaurant_list .restaurant .meta .name {
+	display:block;
+	font-size:22px;
+	line-height:normal;
+	padding-top:1px;
+	padding-left:6px;
+	margin-bottom:0;
+	border-left:7px solid #9de008;
+}
+body.opera .restaurant_list .restaurant .meta .name {
+	line-height:12px;
+}
+.restaurant_list .is_beta .meta .name .value {
+	padding-right:32px;
+	background:url('/images/beta.gif') right 6px no-repeat;
+}
+body#restaurant .restaurant_list .restaurant.added .meta .name a ,
+body#restaurant .restaurant_list .restaurant.added .meta .name a:link ,
+body#restaurant .restaurant_list .restaurant.added .meta .name a:visited ,
+body#restaurant .restaurant_list .restaurant.added .meta .name a:hover {
+	background-image:url('/images/green_check_mark.png');
+	background-position:right center;
+	background-repeat:no-repeat;
+	padding-right:20px;
+	background-color:#fff;
+	color:#0d80b5;
+	cursor:default;
+}
+body#restaurant.ie6 .restaurant_list .restaurant.added .meta .name a ,
+body#restaurant.ie6 .restaurant_list .restaurant.added .meta .name a:link ,
+body#restaurant.ie6 .restaurant_list .restaurant.added .meta .name a:visited ,
+body#restaurant.ie6 .restaurant_list .restaurant.added .meta .name a:hover {
+	background-image:url('/images/green_check_mark.gif');
+}
+body.ie7 .restaurant_list .restaurant .meta .name a,
+body.ie6 .restaurant_list .restaurant .meta .name a {
+	padding-top:4px;
+}
+.restaurant_list .restaurant .meta .tel {
+	font-size:16px;
+	letter-spacing:2px;
+	display:block;
+	margin-left:0;
+	border-left:7px solid #9de008;
+	padding-left:7px;
+	padding-top:8px;
+	color:#555;
+	font-family:digital,Helvetica,Arial;
+	line-height:14px;
+}
+body.windows .restaurant_list .restaurant .meta .tel {
+	color:#333;
+	font-size:17px;
+}
+body.ie .restaurant_list .restaurant .meta .tel {
+	font-size:14px;
+	letter-spacing:1px;
+}
+.restaurant_list .restaurant .meta .tel_divider {
+	padding-right:5px;
+	position:relative;
+	left:-1px;
+	background:url('/images/grey_dash.png') center 6px no-repeat;
+}
+body.windows .restaurant_list .restaurant .meta .tel_divider {
+	background-position:center 8px;
+}
+body.ie9 .restaurant_list .restaurant .meta .tel_divider {
+	background-position:center 4px;
+}
+.restaurant_list .restaurant .meta .tel .tel_ext {
+	color:#555;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	position:relative;
+	top:-1px;
+	margin:0 2px;
+}
+body.windows .restaurant_list .restaurant .meta .tel .tel_ext {
+	color:#555;
+	margin:0 1px 0 3px;
+}
+.restaurant_list .restaurant .meta.no_menu .name,
+.restaurant_list .restaurant .meta.no_menu .tel,
+.restaurant_list .restaurant .not_in_opening_time .name,
+.restaurant_list .restaurant .not_in_opening_time .tel {
+	border-left-color:#ff900f;
+}
+.restaurant_list .restaurant .meta.no_service .name,
+.restaurant_list .restaurant .meta.no_service .tel {
+	border-left-color:#f23030;
+}
+.restaurant_list .restaurant .meta.removing .name,
+.restaurant_list .restaurant .meta.removing .tel {
+	border-left-color:#9c3030;
+}
+.restaurant_list .restaurant .meta .tel .skype_icon {
+	position:relative;
+	top:-3px;
+}
+.restaurant_list .restaurant .meta .tel_q_icon {
+	position:relative;
+	top:3px;
+	display:inline-block;
+	height:18px;
+	width:18px;
+	background-color:transparent;
+	background-image:url('/images/question_icon.png');
+	background-position:no-repeat;
+}
+body.ie7 .restaurant_list .restaurant .meta .tel_q_icon,
+body.ie6 .restaurant_list .restaurant .meta .tel_q_icon {
+	top:0;
+	background-image:url('/images/question_icon.gif');
+}
+.restaurant_list .restaurant .meta a.tel_q_icon,
+.restaurant_list .restaurant .meta a.tel_q_icon:link,
+.restaurant_list .restaurant .meta a.tel_q_icon:hover,
+.restaurant_list .restaurant .meta a.tel_q_icon:visited,
+.restaurant_list .restaurant .meta a.tel_q_icon:active {
+	background-color:transparent;
+	background-position:0 0;
+}
+.restaurant_list .restaurant .meta a.tel_q_icon:hover {
+	background-position:0 -18px;
+}
+.restaurant_list .restaurant .meta a.tel_q_icon:active {
+	background-position:0 -36px;
+}
+.restaurant_list .restaurant .meta .actions {
+	position:absolute;
+	right:2px;
+	bottom:1px;
+	font-size:12px;
+	line-height:1.4em;
+	font-weight:normal;
+	color:#999;
+}
+body#home .restaurant_list .restaurant .meta .actions a.fav-add,
+body#home .restaurant_list .restaurant .meta .actions a.fav-remove
+{
+	display:none !important;
+}
+.restaurant_list .restaurant .meta .actions a.fav-add,
+.restaurant_list .restaurant .meta .actions a.fav-remove
+{
+	position:absolute;
+	right:0;
+	bottom:22px;
+	color:#999;
+	text-decoration:none;
+	line-height:16px;
+	background-position:0 center;
+	background-repeat:no-repeat;
+}
+.restaurant_list .restaurant .meta .actions a.fav-remove {
+	display:none;
+}
+.restaurant_list .restaurant.added .meta .actions a.fav-add {
+	display:none;
+}
+.restaurant_list .restaurant.added .meta .actions a.fav-remove {
+	display:inline;
+}
+.restaurant_list .restaurant .meta .actions a {
+	display:inline;
+}
+.restaurant_list .restaurant .meta .actions .online_payment_icon {
+	display:inline-block;
+	width:20px;
+	height:14px;
+	background:url('/images/restaurant_icons_grey_14.png') 0 0 no-repeat;
+	position:relative;
+	top:2px;
+	margin-left:5px;
+}
+.restaurant_list .restaurant .meta .actions .frequent_icon {
+	display:inline-block;
+	width:22px;
+	height:14px;
+	background:url('/images/restaurant_icons_grey_14.png') -40px 0 no-repeat;
+	position:relative;
+	top:2px;
+	margin-left:5px;
+}
+.restaurant_list .restaurant .meta .actions .sale_icon {
+	display:inline-block;
+	width:24px;
+	height:14px;
+	background:url('/images/restaurant_icons_grey_14.png') -84px 0 no-repeat;
+	position:relative;
+	top:2px;
+	margin-left:5px;
+}
+.restaurant_list .restaurant .meta .actions .promotion_orange_icon {
+	display:inline-block;
+	width:14px;
+	height:14px;
+	background:url('/images/restaurant_icons_grey_14.png') -132px 0 no-repeat;
+	position:relative;
+	top:2px;
+	margin-left:5px;
+}
+.restaurant_list .restaurant .meta .actions .promotion_drink_icon {
+	display:inline-block;
+	width:8px;
+	height:14px;
+	background:url('/images/restaurant_icons_grey_14.png') -160px 0 no-repeat;
+	position:relative;
+	top:2px;
+	margin-left:5px;
+}
+body.ie6 .restaurant_list .restaurant .meta .actions .online_payment_icon,
+body.ie6 .restaurant_list .restaurant .meta .actions .frequent_icon,
+body.ie6 .restaurant_list .restaurant .meta .actions .sale_icon,
+body.ie6 .restaurant_list .restaurant .meta .actions .promotion_orange_icon,
+body.ie6 .restaurant_list .restaurant .meta .actions .promotion_drink_icon {
+	background-image:url('/images/restaurant_icons_grey_14.gif');
+	top:1px;
+}
+body.ie7 .restaurant_list .restaurant .meta .actions .online_payment_icon,
+body.ie7 .restaurant_list .restaurant .meta .actions .frequent_icon,
+body.ie7 .restaurant_list .restaurant .meta .actions .sale_icon,
+body.ie7 .restaurant_list .restaurant .meta .actions .promotion_orange_icon,
+body.ie7 .restaurant_list .restaurant .meta .actions .promotion_drink_icon {
+	top:0;
+}
+.restaurant_list .restaurant .meta .actions .words {
+	margin-left:3px;
+}
+.restaurant_list .restaurant .meta .actions .promotion_drink_outer strong{
+	font-size:16px;
+	position:relative;
+	top:1px;
+	margin-left:1px;
+	margin-right:1px;
+}
+/*
+.restaurant_list .restaurant .meta .actions a.fav-add {
+	background-image:url('/images/icon_add.gif');
+}
+.restaurant_list .restaurant .meta .actions a.fav-remove {
+	background-image:url('/images/icon_remove.gif');
+}
+*/
+.restaurant_list .restaurant .meta .actions a.fav-add:hover ,
+.restaurant_list .restaurant .meta .actions a.fav-remove:hover {
+	color:#000;
+}
+.restaurant_list ul.toc {
+	border:0;
+	font-size:12px;
+	display:block;
+	list-style:none;
+	padding:5px 7px;
+	margin:10px 0;
+	width:120px;
+	display:none;
+}
+.restaurant_list ul.toc li {
+	padding:2px 0;
+}
+.restaurant_list ul.toc h4 {
+	margin:0;
+	font-size:13px;
+}
+.restaurant_list ul.toc a {
+	color:#206B00;
+}
+.restaurant_rate {
+	margin-top:6px;
+    padding-left: 0px;
+	font-size:12px;
+	color:#666;
+	position:relative;
+}
+.no_service.restaurant_rate,
+.removing.restaurant_rate,
+.no_menu.restaurant_rate {
+	padding-left:5px;
+}
+.restaurant_list .meta a.bm {
+	display:block;
+	margin-bottom:28px;
+}
+.restaurant_rate .icon {
+	position:absolute;
+	left:6px;
+	top:0;
+	display:inline-block;
+	width:52px;
+	height:16px;
+	background:url('/images/stars.png') 0 -16px no-repeat;
+}
+.restaurant_rate.rate1 .icon {
+	background-position:0 0; 
+}
+.restaurant_rate.rate3 .icon {
+	background-position:0 -32px;
+}
+.no_service.restaurant_rate .icon,
+.removing.restaurant_rate .icon,
+.no_menu.restaurant_rate .icon {
+	display:none;
+}
+body.ie6 .restaurant_rate .icon {
+	display:block;
+	background-image:url('/images/stars.gif');
+}
+body.ie6 .restaurant_rate .words{
+	margin-left:60px;
+}
+.not_in_opening_time_icon {
+	display:block;
+	position:absolute;
+	left:7px;
+	top:-8px;
+	width:47px;
+	height:29px;
+	background:url('/images/restaurant_not_in_opening_time_icon.gif') 0 0 no-repeat;
+}
+.discount_hint {
+	position:absolute;
+	bottom:-37px;
+	right:2px;
+	font-size:12px;
+	color:#999;
+	height:32px;
+	padding-top:8px;
+	padding-left:32px;
+}
+.discount_hint .icon {
+	position:absolute;
+	left:0;
+	top:0px;
+	height:32px;
+	width:32px;
+	background:url('/images/discount_hint_icon.gif') 0 0 no-repeat;
+}
+body.ie6 .discount_hint .icon {
+	top:1px; /* Who can explain this? */
+}
+/*ie start*/
+body.ie6 .restaurant_list .restaurant .ie_hover .name a{
+	background:#0f91cf;
+	color:#fff;
+}
+/*
+#container .restaurant_list .restaurant .meta.ie_hover .actions a.fav-remove,
+.restaurant_list .restaurant .meta:hover .actions a.fav-remove {
+	display:none;
+}
+#container .restaurant_list .restaurant.added .meta.ie_hover .actions a.fav-add,
+.restaurant_list .restaurant.added .meta:hover .actions a.fav-add {
+	display:none;
+}
+body#home .restaurant_list .restaurant .meta.ie_hover,
+body#home .restaurant_list .restaurant .meta:hover {
+	background:none;
+}
+.restaurant_list .restaurant .meta .actions a:hover {
+	color:#000;
+}
+*/
+
+/*ie end*/
+
+/* Restaurant icons tipsy */
+body.ie6 .tipsy-inner {
+	display:inline;
+}

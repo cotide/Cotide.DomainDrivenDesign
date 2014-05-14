@@ -1,0 +1,145 @@
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Cotide.Tasks.pdb
+D:\Person\Shop\Shop\Cotide.Tasks\obj\Debug\Cotide.Tasks.dll
+D:\Person\Shop\Shop\Cotide.Tasks\obj\Debug\Cotide.Tasks.pdb
+D:\Person\Shop\Shop\Cotide.Tasks\obj\Debug\Cotide.Tasks.csprojResolveAssemblyReference.cache
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Cotide.Domain.dll
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Cotide.Framework.dll
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Castle.Windsor.dll
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\AutoMapper.dll
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\EntityFramework.dll
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Castle.Core.dll
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Cotide.Domain.pdb
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Cotide.Framework.pdb
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Castle.Windsor.xml
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\EntityFramework.xml
+D:\Person\Shop\Shop\Cotide.Tasks\bin\Debug\Castle.Core.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Cotide.Tasks.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Cotide.Domain.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Cotide.Framework.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\EntityFramework.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Castle.Windsor.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\AutoMapper.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Castle.Core.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Cotide.Domain.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Cotide.Framework.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\EntityFramework.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Castle.Windsor.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\AutoMapper.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\bin\Debug\Castle.Core.xml
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\obj\Debug\Cotide.Tasks.csprojResolveAssemblyReference.cache
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\obj\Debug\Cotide.Tasks.dll
+D:\Person\Shop\Shop1\Shop\Cotide.Tasks\obj\Debug\Cotide.Tasks.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\obj\Debug\Cotide.Tasks.csprojResolveAssemblyReference.cache
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Cotide.Tasks.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Cotide.Domain.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Cotide.Framework.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\EntityFramework.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\AutoMapper.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Castle.Windsor.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Castle.Core.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Cotide.Domain.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Cotide.Framework.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\EntityFramework.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\AutoMapper.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Castle.Windsor.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\bin\Debug\Castle.Core.xml
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\obj\Debug\Cotide.Tasks.dll
+D:\Person\TFS\cotideShop\Src\Cotide.Tasks\obj\Debug\Cotide.Tasks.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\obj\Debug\Cotide.Tasks.csprojResolveAssemblyReference.cache
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Cotide.Tasks.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Cotide.Domain.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Cotide.Framework.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\EntityFramework.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\AutoMapper.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Castle.Windsor.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Castle.Core.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Cotide.Domain.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Cotide.Framework.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\EntityFramework.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\AutoMapper.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Castle.Windsor.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\bin\Debug\Castle.Core.xml
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\obj\Debug\Cotide.Tasks.dll
+D:\Person\GitOSC\Cotide.TeamProject\Cotide.Tasks\obj\Debug\Cotide.Tasks.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Cotide.Tasks.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Cotide.Domain.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Cotide.Framework.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\EntityFramework.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\AutoMapper.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Castle.Windsor.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Castle.Core.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Cotide.Domain.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Cotide.Framework.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\EntityFramework.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\AutoMapper.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Castle.Windsor.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\bin\Debug\Castle.Core.xml
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\obj\Debug\Cotide.Tasks.csprojResolveAssemblyReference.cache
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\obj\Debug\Cotide.Tasks.dll
+D:\Person\GitOSC\Cotide.TeamProject - 副本\Cotide.Tasks\obj\Debug\Cotide.Tasks.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll.config
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Cotide.Tasks.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Cotide.Domain.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Cotide.Framework.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\EmitMapper.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\EntityFramework.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\AutoMapper.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Castle.Windsor.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Castle.Core.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Cotide.Domain.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Cotide.Framework.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\EntityFramework.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\AutoMapper.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Castle.Windsor.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\Castle.Core.xml
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\obj\Debug\Cotide.Tasks.csprojResolveAssemblyReference.cache
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\obj\Debug\Cotide.Tasks.dll
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\obj\Debug\Cotide.Tasks.pdb
+D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\AutoMapper.Net4.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\AutoMapper.Net4.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll.config
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Tasks.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Domain.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Framework.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\EmitMapper.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\EntityFramework.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\AutoMapper.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Castle.Windsor.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Castle.Core.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Domain.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Framework.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Infrastructure.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\EntityFramework.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\AutoMapper.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Castle.Windsor.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Castle.Core.xml
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\obj\Debug\Cotide.Tasks.csprojResolveAssemblyReference.cache
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\obj\Debug\Cotide.Tasks.dll
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\obj\Debug\Cotide.Tasks.pdb

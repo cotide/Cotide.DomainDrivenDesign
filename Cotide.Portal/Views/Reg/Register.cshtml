@@ -1,0 +1,79 @@
+﻿@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_PageLayout.cshtml";
+}
+@model Cotide.Portal.Controllers.ViewModels.Reg.RegisterViewModel
+<div class="wrapper" style="padding-top: 20px;">
+    <div class="row">
+        <div class="twelve ">
+            <fieldset>
+                <legend>用户注册</legend>
+                @using (Html.BeginForm())
+                {                                   
+                    <p>
+                        <label>@Html.DisplayFor(x => x.UserName)</label>
+                        @Html.TextBoxExFor(x => x.UserName, null, new ValidateOption()
+                          {
+                              Min =5,
+                              Max = 20,
+                              RangeMsg = "输入密码请在6-20位字符以内",
+                              EmptyMsg = "请输入用户名"
+                          })
+                        <span class="tipsInfo">全站唯一，6-20个字符，允许英文字母和数字</span>
+                        @Html.ValidationMessageExFor(x => x.UserName)                        
+                    </p>
+                    <p>
+                        <label>用户昵称：</label>
+                         @Html.TextBoxExFor(x => x.RealName, null, new ValidateOption()
+                          {
+                              Min = 3,
+                              Max = 20,
+                              RangeMsg = "输入密码请在3-20位字符以内",
+                              EmptyMsg = "请输入用户昵称"
+                          })                        
+                        <span class="tipsInfo">3-20个字符，允许汉字、英文字母、数字和符号</span>
+                        @Html.ValidationMessageExFor(x => x.RealName)
+                    </p>
+                    <p>
+                        <label>密码：</label>
+                        @Html.PasswordExFor(x => x.Paw, null, new PassValidateOption()
+                          {
+                              Min = 5,
+                              Max = 20,
+                              RangeMsg = "输入密码请在6-20位字符以内",
+                              EmptyMsg = "请输入密码"
+                          })
+                        <span class="tipsInfo">6-20个字符，请选用安全的密码，不允许使用只包含纯数字，纯大写或者小写字母的密码</span>
+                        @Html.ValidationMessageExFor(x => x.Paw)
+                    </p>
+                    <p>
+                        <label>密码确认：</label>
+                        @Html.PasswordExFor(x => x.RepeatPaw, null, new PassValidateOption()
+                          {
+                              CompareElem = "Paw",
+                              Min = 5,
+                              Max = 20,
+                              RangeMsg = "输入密码请在6-20位字符以内",
+                              EmptyMsg = "请输入密码确认",
+                              CompareElemMsg = "两次密码输入不一致"
+                          })
+                        @Html.ValidationMessageExFor(x => x.RepeatPaw)
+                    </p>
+                    <p>
+                        <input name="提交" type="submit" class="button blue" value="提交" />
+                        <input name="重置" type="reset" class="button" value="重置" />
+                    </p>
+                    <p style="color: red; font-weight: bold;">
+                        @ViewData["TipsMessage"]
+                    </p>
+                }
+            </fieldset>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+    .tipsInfo {
+        color: #bbb2b2;
+        padding-left: 10px;
+    }
+</style>

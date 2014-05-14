@@ -1,0 +1,54 @@
+﻿@{    
+    ViewBag.Title = @ViewBag.Title;
+    ViewBag.Keywords = @ViewBag.Keywords;
+    ViewBag.Description = @ViewBag.Description;
+    Layout = "~/Views/Shared/Base/_BaseLayout.cshtml";
+}
+@section Head
+{
+    @Html.StyleSheet("style/keqie/css/cutter.css")
+    @Html.StyleSheet("lib/validate/pagevalidator.css")
+    @Html.JavaScript("jquery/jquery-1.10.2.js")
+    @Html.JavaScript("lib/validate/pagevalidator_v2.js")
+    @RenderSection("PageHead", false)
+    @Html.Raw(TempData["alter"])
+}
+@section Content{
+    <div class="topbar">
+        <div class="wrapper">
+            <div class="logo">
+                <h1>应用平台</h1> 
+            </div>
+            <div class="module">
+                <a href="@Url.Action("Default", "Home")">首页</a>
+                <a href="@Url.Action("List","UserInfo")">用户管理</a>
+                <a href="@Url.Action("List","Client")">客户端管理</a>
+            </div>
+            <div class="sub" style="width: 100px;">
+                @{
+                    var currentUser = ViewData["user"] as Cotide.Portal.Controllers.ViewModels.User.UserViewModel;
+                    if (currentUser != null)
+                    {
+                        <a href="javascript:void(0);">@currentUser.RealName</a>
+                        <a href="@Url.Action("Logoff", "Reg")">注销</a>
+                    }
+                    else
+                    { 
+                        <a href="@Url.Action("Login", "Reg")">登陆</a>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+
+    <!-- 内容 -->
+    @RenderBody()
+    <div class="footer" style="background-color: #e5e5e5; border-top: 1px solid #333;">
+        <div class="wrapper">
+            <div class="row" style="text-align: center; height: 80px;">
+                <br />
+                OAuth Demo 
+            </div>
+        </div>
+    </div>
+}

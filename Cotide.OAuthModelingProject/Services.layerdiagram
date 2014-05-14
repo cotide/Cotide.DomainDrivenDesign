@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="df535a57-9278-4281-b60f-b98aaa1d630d" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <comments>
+    <comment Id="bab0e74b-c33f-48d5-af37-4a8da99890d5" name="Comment1">
+      <body>资源拥有者</body>
+    </comment>
+    <comment Id="89d40129-c33c-4e92-90bb-cf49dc190181" name="Comment2">
+      <body>客户端</body>
+    </comment>
+    <comment Id="43eb19bf-fd9e-4616-81d6-78493d7a69e3" name="Comment3">
+      <body>鉴权服务</body>
+    </comment>
+    <comment Id="d67b2241-25ce-4bdc-8698-e36128cc0536" name="Comment4">
+      <body>资源服务</body>
+    </comment>
+  </comments>
+  <layers>
+    <layer Id="feedaa26-cc2f-42ca-bd2a-4a9064f7b37b" name="Resource Owner" />
+    <layer Id="2f9e2db7-ef95-46f4-a80f-18d2ec7dd227" name="Client">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="301313db-73e1-4973-b956-8b8f5ab4366c" direction="Bidirectional">
+          <layerMoniker Id="a4d0544e-6bfb-45ad-91e5-e3f62479077d" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="a4d0544e-6bfb-45ad-91e5-e3f62479077d" name="Authorization Server">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="233f5af8-ddce-49c8-98eb-d1f906fb106b" direction="Bidirectional">
+          <layerMoniker Id="feedaa26-cc2f-42ca-bd2a-4a9064f7b37b" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="7e9ad88b-398e-40e4-bcf5-37b41ee25cf6" direction="Bidirectional">
+          <layerMoniker Id="6eb2081f-c6cc-4f7f-af0e-fdc88e238b03" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="6eb2081f-c6cc-4f7f-af0e-fdc88e238b03" name="Resource Server" />
+  </layers>
+</layerModel>

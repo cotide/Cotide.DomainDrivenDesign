@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="EF DbContent">
+    <Position X="2.104" Y="0.833" Height="0.29" Width="1.065" />
+  </Comment>
+  <Comment CommentText="Msssql DbContent">
+    <Position X="6.323" Y="1.208" Height="0.29" Width="1.388" />
+  </Comment>
+  <Class Name="Cotide.Infrastructure.Context.MssqlDbContext">
+    <Position X="5.25" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAEgAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Context\MSSQLDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Data.Entity.DbContext">
+    <Position X="1.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

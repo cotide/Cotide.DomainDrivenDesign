@@ -1,0 +1,435 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*------------重置样式----------------------*/
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+li {
+	list-style:none;
+}
+a, a:link, a:visited, a:hover, a:active {
+	text-decoration:none;
+}
+table {
+	border-collapse:collapse;
+}
+/*------------公用样式----------------------*/
+.float-l {
+	float:left;
+}
+.float-r {
+	float:right;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+* html .clearfix {
+	zoom: 1;
+} /* IE6 */
+*:first-child+html .clearfix {
+	zoom: 1;
+}	 /* IE7 */
+.padding-0 {
+	padding:0;
+}
+.border-none {
+	border:none;
+}
+.overflow-hidden {
+	overflow-x:hidden;
+}
+/*------------头部 LOGO 及用户组 开始----------------------*/
+.header {
+	background:url(~/Content/menu/img/top_bg.png) repeat-x;
+	height:90px;
+	overflow:hidden;
+}
+.logo {
+	background:url(~/Content/menu/img/logo.png) no-repeat;
+	height:90px;
+}
+.dl-log {
+	padding:10px 16px 0 0;
+}
+.dl-log-quit {
+	letter-spacing:3px;
+}
+.dl-log-user {
+	font:SimYou 14px 700 !important;
+	color:#fff;
+	line-height:30px;
+	margin-top:50px;
+	text-align:right;
+}
+.dl-log-user b {
+	margin:0 12px
+}
+/*------------头部 LOGO 及用户组 结束----------------------*/	
+/*------------边栏样式 开始----------------------*/	
+
+.wrap {
+	width: 100%;
+	height: 100%;
+}
+.panel {
+	width:214px;
+	height:100%;
+	position:absolute;
+	left:0px;
+	background:#dde2fd;
+	z-index:1;
+}
+.sliderbar {
+	width:10px;
+	height:100%;
+	position:absolute;
+	left:214px;
+	z-index:1;
+	background:#004f7a;
+}
+.panel_toggle {
+	width: 7px;
+	height: 54px;
+	display: block;
+	position:absolute;
+	top: 50%;
+	left:1px;
+	margin-top:-54px;
+	z-inde:1;
+}
+.wrap_content {
+	width: 100%;
+	background-color:#fff;
+	position:absolute;
+	z-inde:1;
+}
+/*------------手风琴样式 开始----------------------*/	
+ul.menu, ul.menu ul {
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	width:100%;
+}
+ul.menu a {
+	display: block;
+	text-decoration: none;
+}
+ul.menu li a {
+	background:url(~/Content/menu/img/accordion-menu-bg.png) repeat-x;
+	height:32px;
+	overflow:hidden;
+	color: #fff;
+	padding-left: 20px;
+}
+ul.menu li a:hover {
+	background:url(~/Content/menu/img/accordion-menu-bg-hover.png) repeat-x;
+	height:32px;
+	padding-left: 20px;
+	color:#000;
+	overflow:hidden;
+}
+ul.menu li ul li a {
+	background: #eee;
+	color: #000;
+	padding-left: 20px;
+}
+ul.menu li ul li a:hover {
+	background: #fcfcfc;
+	color: #025c8c;
+	padding-left: 20px;
+}
+.menu li ul li a {
+	line-height:32px;
+}
+/*手风琴按钮组*/	
+.ico {
+	padding-left:18px;
+	line-height:32px;
+}
+span.project {
+	background:url(~/Content/menu/img/icon/project/add.png) no-repeat;
+}
+span.setting {
+	background:url(~/Content/menu/img/icon/setting/setting.png) no-repeat;
+}
+span.user {
+	background:url(~/Content/menu/img/icon/user/user.png) no-repeat;
+}
+span.terminal {
+	background:url(~/Content/menu/img/icon/terminal/terminal.png) no-repeat;
+}
+/*项目管理按钮组*/		
+.ico-project-add {
+	background:url(~/Content/menu/img/icon/project/add.png) no-repeat;
+}
+.ico-project-draftbox {
+	background:url(~/Content/menu/img/icon/project/draftbox.png) no-repeat;
+}
+.ico-project-receive {
+	background:url(~/Content/menu/img/icon/project/receive.png) no-repeat;
+}
+.ico-project-have-receive {
+	background:url(~/Content/menu/img/icon/project/have-receive.png) no-repeat;
+}
+.ico-project-completed {
+	background:url(~/Content/menu/img/icon/project/completed.png) no-repeat;
+}
+.ico-project-suspended {
+	background:url(~/Content/menu/img/icon/project/suspended.png) no-repeat;
+}
+.ico-project-import-data {
+	background:url(~/Content/menu/img/icon/project/import-data.png) no-repeat;
+}
+/*配置管理按钮组*/
+.ico-setting-addlist {
+	background:url(~/Content/menu/img/icon/setting/addlist.png) no-repeat;
+}
+.ico-setting-my-setting {
+	background:url(~/Content/menu/img/icon/setting/my-setting.png) no-repeat;
+}
+.ico-setting-add {
+	background:url(~/Content/menu/img/icon/setting/add.png) no-repeat;
+}
+.ico-setting-list {
+	background:url(~/Content/menu/img/icon/setting/list.png) no-repeat;
+}
+/*用户管理按钮组*/
+.ico-user-add {
+	background:url(~/Content/menu/img/icon/user/add.png) no-repeat;
+}
+.ico-user-list {
+	background:url(~/Content/menu/img/icon/user/list.png) no-repeat;
+}
+.ico-user-expire {
+	background:url(~/Content/menu/img/icon/user/expire.png) no-repeat;
+}
+.ico-user-overdue {
+	background:url(~/Content/menu/img/icon/user/overdue.png) no-repeat;
+}
+.ico-user-my-user {
+	background:url(~/Content/menu/img/icon/user/my-user.png) no-repeat;
+}
+/*终端管理按钮组*/
+.ico-terminal-maintain {
+	background:url(~/Content/menu/img/icon/terminal/maintain.png) no-repeat;
+}
+.ico-terminal-log {
+	background:url(~/Content/menu/img/icon/terminal/log.png) no-repeat;
+}
+.ico-terminal-operation-log {
+	background:url(~/Content/menu/img/icon/terminal/operation-log.png) no-repeat;
+}
+/*------------手风琴样式 结束----------------------*/	
+
+/*------------边栏样式 结束----------------------*/	
+/*------------弹出遮罩层 开始----------------------*/	
+.bg {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width:10000px;
+	height:10000px;
+	background-color: #000;
+	z-index:1001;
+	-moz-opacity: 0.3;
+	opacity:.30;
+	filter: alpha(opacity=30);
+}
+/*loading图样式*/
+.load {
+	width:140px;
+	height:38px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-16px;
+	margin-left:-16px;
+	color:#004f7a;
+	line-height:28px;
+}
+.load img {
+	width:28px;
+	height:28px;
+}
+/*------------弹出遮罩层 结束----------------------*/
+/*------------标题 开始----------------------*/
+.datatables-filter-panel {
+	background:url(~/Content/menu/img/dl-main-title.png) repeat;
+	height:49px;
+	width:100%;
+}
+.datatables-filter-panel-title {
+	display:inline-block;
+	font-size:16px;
+	font-weight:600;
+	background:url(~/Content/menu/img/dl-main-title-hover.png) repeat;
+	height:49px;
+	padding:0 15px;
+	line-height:49px;
+	margin-left:45px;
+}
+.datatables-filter-panel a {
+	line-height:49px;
+	margin-right:60px;
+	text-decoration:none;
+	cursor:pointer;
+}
+.portlet-collapse-icon {
+	background:url(~/Content/menu/img/portlet-collapse-icon.gif) no-repeat;
+	line-height:49px;
+	padding-right:12px;
+}
+.portlet-expand-icon {
+	background:url(~/Content/menu/img/portlet-expand-icon.gif) no-repeat;
+	line-height:49px;
+	padding-right:12px;
+}
+/*------------标题 结束----------------------*/	
+/*------------搜索过滤器 开始----------------------*/	
+.datatables-filter {
+	width:98%;
+	margin:12px auto;
+}
+.datatables-filter tr td {
+	vertical-align:middle!important;
+}
+.l_td_1 {
+	width:80px;
+}
+.l_td_2 {
+	width:40px!important;
+}
+.search-filter {
+	height:28px;
+	line-height:28px;
+	width:90%;
+ *min-width:140px!important;
+	margin:2px 4px;
+	border:1px solid #ddd;
+	vertical-align:middle;
+}
+.search-filter_1 {
+	height:28px;
+	line-height:28px;
+	width:90%;
+ *min-width:70px!important;
+	margin:2px 4px;
+	border:1px solid #ddd;
+	vertical-align:middle;
+}
+/*------------搜索过滤器 结束----------------------*/
+/*------------表格前用户工具条 开始----------------------*/
+.datatables {
+	width:98%;
+	margin:12px auto;
+}
+.datatables-toollist {
+	width:100%;
+}
+/*------------表格前用户工具条 结束----------------------*/
+/*------------表格隔行变色 开始----------------------*/
+.tablist {
+	width:100%;
+	margin:0 auto;
+}
+.tablist, .tablist tr, .tablist tr td {
+	border:1px solid #ddd;
+}
+.tablist tr td {
+	padding:2px 0;
+	height:30px;
+	line-height:30px;
+}
+.overflow tr td {
+	overflow:hidden;
+}
+.tablist thead {
+	background:#dde2fd;/*列头背景颜色*/
+}
+.tablist tr td {
+	vertical-align:middle!important;
+}
+.evenrow {
+	background:#f6f6f6;/*奇数背景颜色*/
+}
+.oddrow {
+	background:#eeeff1;/*偶数背景颜色*/
+}
+.activerow {
+	background:#a0b7e3;/*鼠标划过背景颜色*/
+}
+/*------------表格隔行变色 结束----------------------*/
+/*------------分页 开始----------------------*/
+.pDiv {
+	width:100%;
+	background:url(~/Content/menu/img/grid/wbg.gif) repeat-x 0 -1px;
+	border:1px solid #ccc;
+	overflow:hidden;
+	white-space:nowrap;
+	position:relative;
+}
+.pDiv div.pDiv2 {
+	float:left;
+	width:1024px;
+	margin:3px 3px 3px -2px
+}
+div.pGroup {
+	float:left;
+	background:none;
+	height:24px;
+	margin:0 5px
+}
+.pDiv .pPageStat, .pDiv .pcontrol {
+	position:relative;
+	top:5px;
+	overflow:visible
+}
+.pDiv select{
+	margin-top:4px;
+	*margin-top:0;
+	}
+.pDiv input {
+	vertical-align:text-top;
+	position:relative;
+	top:-5px
+}
+.pDiv div.pButton {
+	float:left;
+	width:22px;
+	height:22px;
+	border:0;
+	margin-top:2px;
+	cursor:pointer;
+	overflow:hidden
+}
+.pDiv div.pButton span {
+	width:22px;
+	height:22px;
+	display:block;
+	float:left
+}
+.pFirst {
+	background:url(~/Content/menu/img/grid/first.gif) no-repeat center
+}
+.pPrev {
+	background:url(~/Content/menu/img/grid/prev.gif) no-repeat center
+}
+.pNext {
+	background:url(~/Content/menu/img/grid/next.gif) no-repeat center
+}
+.pLast {
+	background:url(~/Content/menu/img/grid/last.gif) no-repeat center
+}
+.pReload {
+	background:url(~/Content/menu/img/grid/load.png) no-repeat center
+}
+.pReload.loading {
+	background:url(~/Content/menu/img/grid/load.gif) no-repeat center
+}
+/*------------分页 结束----------------------*/

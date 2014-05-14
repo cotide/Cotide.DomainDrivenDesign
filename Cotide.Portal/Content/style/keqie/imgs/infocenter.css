@@ -1,0 +1,1347 @@
+﻿@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 12px;
+    background: #fff;
+    min-width: 1002px;
+    _width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1002?"1002px":"");
+}
+
+    body a, .pass_login_change_verifycode {
+        color: #5199fd;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+ul {
+    list-style: none outside none;
+}
+
+section {
+    padding-left: -50px;
+    padding-right: -50px;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix {
+    overflow: hidden;
+    *zoom: 1;
+}
+
+    .clearfix:after {
+        content: "\20";
+        display: block;
+        height: 0;
+        visibility: hidden;
+        clear: both;
+    }
+
+.login-header {
+    padding: 10px 0 0 12px;
+    _padding: 0;
+}
+
+.footer {
+    bottom: 0;
+    min-width: 1002px;
+    _width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1002?"1002px":"100%");
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    _margin-top: 10px;
+    padding: 30px 0;
+    clear: both;
+    color: #666;
+    font: 12px/1.5 tahoma,arial,宋体;
+}
+
+    .footer span, .footer a {
+        color: #666;
+    }
+
+    .footer .footer-mail {
+        color: #2974b6;
+    }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+.logo {
+    background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123");
+    float: left;
+    height: 48px;
+    margin: 10px 0 0 25px;
+    overflow: hidden;
+    width: 186px;
+    display: inline;
+}
+
+.yun-pan-logo {
+    background: url("http://s1.pan.bdstatic.com/static/images/yun_logo.gif?r=201312231123");
+    float: left;
+    height: 48px;
+    text-indent: -9999em;
+    outline: 0;
+    margin: 10px 0 0 25px;
+    overflow: hidden;
+    width: 140px;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/images/yun_logo.gif');
+    display: inline;
+}
+
+.header-login {
+    width: 316px;
+    height: 435px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    background: url(http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123) -14px -136px no-repeat;
+    _display: inline;
+    z-index: 999;
+    margin-top: 16px;
+    _padding-top: 10px;
+}
+
+.h2 {
+    font-size: 12px;
+    margin: -11px 0 0 890px;
+}
+
+#header a {
+    color: #2974b6;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    outline: 0;
+}
+
+.login-div {
+    padding-top: 12px;
+}
+
+#login-t {
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+}
+
+.pass_login_form p.pass_login_p_username, .pass_login_form p.pass_login_p_password, .pass_login_form p.pass_login_p_phoneNumber {
+    overflow: hidden;
+    height: 30px;
+    padding: 8px 0 0;
+}
+
+.pass_login_form p.pass_login_p_verifycode, .pass_login_form p.pass_login_p_img_verifycode, .pass_login_form p.pass_login_p_btn {
+    float: left;
+    height: 30px;
+    padding: 8px 0 0;
+}
+
+.pass_login_form p label.pass_login_label_username, .pass_login_form p label.pass_login_label_phoneNumber, .pass_login_form p label.pass_login_label_verifycode, .pass_login_form p label.pass_login_label_password {
+    float: left;
+    padding: 8px 16px 0 0;
+}
+
+.pass_login_form p label.pass_login_label_username, .pass_login_form p label.pass_login_label_phoneNumber, .pass_login_form p label.pass_login_label_password, .pass_login_form p label.pass_login_label_verifycode, .pass_login_form p label.pass_login_label_rem {
+    color: #858585;
+}
+
+#login-create {
+    color: #5b7e9b;
+}
+
+.pass_login_form {
+    padding: 25px 0 0 28px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.pass_login_form p.pass_login_p_rem {
+    line-height: 18px;
+    font-size: 12px;
+    margin: 15px 52px;
+}
+
+.pass_login_form p input.pass_login_input_username, .pass_login_form p input.pass_login_input_password, .pass_login_form p input.pass_login_input_phoneNumber {
+    width: 184px;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #96bfe6;
+    outline: 0;
+    margin: 0;
+    padding: 5px 8px;
+    font-size: 14px;
+    _display: inline;
+    float: left;
+}
+
+#PassPassword0 {
+    background-position: -179px -37px;
+}
+
+.pass_login_form p input.pass_login_input_rem {
+    margin: 5px 10px 0 49px;
+    margin: 0 10px 0 49px;
+    height: 16px;
+    margin: 6px 10px 6px 49px;
+    overflow: hidden;
+    padding: 0;
+    width: 16px;
+    vertical-align: middle;
+    line-height: 18px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.pass_login_form p label.pass_login_label_rem {
+    line-height: 18px;
+    font-size: 12px;
+    font-family: simsun;
+    vertical-align: middle;
+}
+
+.pass_login_form p.pass_login_p_btn {
+    padding: 0 0 0 52px;
+    height: 38px;
+}
+
+.pass_login_err, .pass_login_p_des, #pass_login_p_generalerror_0 {
+    display: none;
+}
+
+.pass-error0 {
+    color: red;
+    position: relative;
+    top: 26px;
+    text-align: center;
+}
+
+.pass-verifycode {
+    overflow: hidden;
+    padding: 10px 0 0 0;
+}
+
+.pass_login_verifycode, .pass_login_form p input.pass_login_input_verifycode, .pass_login_change_verifycode {
+    margin-right: 5px;
+}
+
+.pass_login_form p input.pass_login_input_verifycode {
+    width: 64px;
+    height: 21px;
+    line-height: 21px;
+    float: left;
+    _display: inline;
+    padding: 0 8px;
+}
+
+.pass_login_verifycode {
+    height: 25px;
+    float: left;
+    _display: inline;
+}
+
+.pass_login_form p input.pass_login_input_submit {
+    float: left;
+    _display: inline;
+    width: 138px;
+    height: 38px;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    margin-right: 20px;
+    background: url(http://s1.pan.bdstatic.com/static/images/new/login-all.gif) -10px 0 no-repeat;
+    text-indent: -9999px;
+}
+
+.pass_login_a_fgtpwd {
+    text-decoration: underline;
+    outline: 0;
+    padding: 0 0 0 10px;
+    line-height: 18px;
+    width: 64px;
+    color: #383838;
+    vertical-align: middle;
+    float: left;
+    position: relative;
+    top: -33px;
+    left: -77px;
+}
+
+.button-container a:hover {
+    text-decoration: underline;
+}
+
+.login-info {
+    left: 28px;
+    position: absolute;
+    top: 333px;
+    width: 266px;
+}
+
+    .login-info p {
+        line-height: 22px;
+    }
+
+#login-create {
+    padding-bottom: 15px;
+    display: block;
+}
+
+.header-login .login-info .link-create {
+    width: 175px;
+    height: 38px;
+    display: block;
+    background: transparent url(http://s1.pan.bdstatic.com/static/images/new/login-all.gif) -10px -58px no-repeat;
+    margin-left: 50px;
+}
+
+.b-list-item {
+    *display: inline;
+}
+
+    .b-list-item a, .b-list-item span {
+        font: 12px/1.5 simsun,tahoma,arial;
+        color: #457db5;
+    }
+
+.b-no-ln, .b-no-ln:link, .b-no-ln:visited {
+    text-decoration: none;
+}
+
+    .b-no-ln:hover, .b-no-ln:active {
+        text-decoration: underline;
+    }
+
+#header-txt {
+    color: #457db5;
+}
+
+#login-body {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    background: url('http://s1.pan.bdstatic.com/static/images/new/login_yun/background.jpg') 0 61px repeat-x;
+}
+
+#login-header {
+    height: 60px;
+    border-bottom: 1px solid #b3b3b3;
+    box-shadow: 0 0 5px #c3c3c3;
+    min-width: 1002px;
+    background: #fff url('http://s1.pan.bdstatic.com/static/images/headerbg.png') 0 2px repeat-x;
+    _width: expression((document.documentElement.clientWidth||document.body.clientWidth)<1002?"1002px":"");
+}
+
+.yun-logo {
+    display: block;
+    float: left;
+    height: 44px;
+    outline: medium none;
+    text-indent: -9999em;
+    width: 140px;
+}
+
+.pan-logo {
+    display: block;
+    float: left;
+    height: 44px;
+    margin: 0 0 0 5px;
+    outline: medium none;
+    text-indent: -9999em;
+    width: 40px;
+}
+
+#login-middle {
+    margin: 0 auto;
+    clear: both;
+    width: 1002px;
+    height: 465px;
+    position: relative;
+}
+
+.login-title, .login-title a {
+    color: #2974b6;
+}
+
+.login-title {
+    float: right;
+    margin: 25px 20px 0 0;
+}
+
+#top_menu_other {
+    color: #f00;
+}
+
+#top_menu_other {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    height: 36px;
+    line-height: 36px;
+    background: 0 -6px no-repeat;
+    padding-left: 56px;
+    margin-top: -11px;
+    _position: relative;
+    *padding-right: 4px;
+}
+
+.header-tab {
+    width: 316px;
+    height: 40px;
+    background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123") -305px 0 no-repeat;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+}
+
+ul.header-tab li {
+    float: left;
+    width: 158px;
+    line-height: 40px;
+    color: #2486c4;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+ul.header-tab .current {
+    font-weight: bold;
+}
+
+.login-third {
+    text-align: center;
+    margin-left: 27px;
+    position: absolute;
+    top: 275px;
+    left: 0;
+}
+
+    .login-third .third {
+        display: block;
+        float: left;
+        line-height: 20px;
+        padding: 5px 0 2px 38px;
+        position: relative;
+        margin: 0 5px 0 0;
+        color: #06c;
+        top: 3px;
+        text-decoration: none;
+        height: 20px;
+    }
+
+    .login-third .tit, .pass-phoenix-title {
+        float: left;
+        padding-top: 10px;
+        *padding-top: 12px;
+        color: #858585;
+    }
+
+    .login-third .third:hover {
+        text-decoration: underline;
+    }
+
+.bd-acc-list {
+    position: relative;
+    top: 15px;
+}
+
+.pass-phoenix-title {
+    padding-top: 20px;
+    padding-left: 32px;
+}
+
+.bd-acc-tsina, .bd-acc-qzone, .bd-acc-renren {
+    cursor: pointer;
+    position: absolute;
+    background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123?t=20130917") -210px 0 no-repeat;
+    height: 22px;
+    width: 29px;
+    display: block;
+    left: 5px;
+    top: 7px;
+    text-indent: -9999em;
+}
+
+.bd-acc-tsina {
+    left: 65px;
+}
+
+    .bd-acc-tsina:hover {
+        background-position: -242px 0;
+    }
+
+.bd-acc-renren {
+    left: 157px;
+    background-position: -210px -20px;
+}
+
+    .bd-acc-renren:hover {
+        background-position: -242px -20px;
+    }
+
+.bd-acc-qzone {
+    left: 110px;
+    background-position: -210px -43px;
+}
+
+    .bd-acc-qzone:hover {
+        background-position: -242px -43px;
+    }
+
+.img-content {
+    float: left;
+    overflow: hidden;
+    height: 417px;
+    margin-right: 28px;
+}
+
+    .img-content a {
+        cursor: default;
+    }
+
+    .img-content img {
+        display: none;
+    }
+
+        .img-content img.current {
+            display: block;
+        }
+
+    .img-content .index-slide-img {
+        border: 0 none;
+    }
+
+.yunbg {
+    position: absolute;
+    background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123") -353px -462px no-repeat;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/images/new/yunbg.png',sizingMethod='scale');
+    left: 28px;
+    bottom: -7px;
+    height: 100px;
+    width: 650px;
+}
+
+.focus-content {
+    bottom: 10px;
+    position: absolute;
+    left: 433px;
+}
+
+    .focus-content .focus-content-item {
+        float: left;
+        padding: 0 7px;
+    }
+
+        .focus-content .focus-content-item .focus-anchor {
+            background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123") -911px -67px no-repeat;
+            display: block;
+            height: 12px;
+            outline: medium none;
+            overflow: hidden;
+            width: 12px;
+        }
+
+            .focus-content .focus-content-item .focus-anchor:hover, .focus-content .focus-content-item .current {
+                background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123") -937px -67px no-repeat;
+            }
+
+#login-download {
+    margin: 0 auto;
+    clear: both;
+    width: 972px;
+    height: 110px;
+    margin-top: 20px;
+}
+
+.tab-download li {
+    float: left;
+    width: 138px;
+    display: block;
+}
+
+    .tab-download li a {
+        display: block;
+        height: 110px;
+        cursor: pointer;
+        outline: 0;
+        text-indent: -999em;
+        background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123") no-repeat;
+    }
+
+    .tab-download li .windows {
+        background-position: -360px -165px;
+    }
+
+        .tab-download li .windows:hover {
+            background-position: -360px -302px;
+            background-color: #f6f6f6;
+        }
+
+    .tab-download li .android {
+        background-position: -497px -165px;
+    }
+
+        .tab-download li .android:hover {
+            background-position: -497px -302px;
+            background-color: #f6f6f6;
+        }
+
+    .tab-download li .iphone {
+        background-position: -634px -165px;
+    }
+
+        .tab-download li .iphone:hover {
+            background-position: -634px -302px;
+            background-color: #f6f6f6;
+        }
+
+    .tab-download li .ipad {
+        background-position: -771px -165px;
+    }
+
+        .tab-download li .ipad:hover {
+            background-position: -771px -302px;
+            background-color: #f6f6f6;
+        }
+
+    .tab-download li .wphone {
+        background-position: -908px -165px;
+    }
+
+        .tab-download li .wphone:hover {
+            background-position: -908px -302px;
+            background-color: #f6f6f6;
+        }
+
+    .tab-download li .tongbupan {
+        background-position: -1045px -165px;
+    }
+
+        .tab-download li .tongbupan:hover {
+            background-position: -1045px -302px;
+            background-color: #f6f6f6;
+        }
+
+    .tab-download li .two-dimension-code {
+        background-position: -1182px -155px;
+        cursor: default;
+    }
+
+.login-tab {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    clear: both;
+    width: 318px;
+}
+
+    .login-tab .tab-item {
+        width: 158px;
+        height: 35px;
+        float: left;
+        position: relative;
+        cursor: pointer;
+        list-style: none;
+    }
+
+    .login-tab .tab-item-left {
+        width: 158px;
+    }
+
+    .login-tab .tab-item a {
+        width: 100%;
+        height: 40px;
+        line-height: 35px;
+        font-family: '宋体';
+        color: #303030;
+        font-size: 14px;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        outline: 0;
+        position: absolute;
+    }
+
+.tab-item-left a {
+    background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123") -305px -40px no-repeat;
+}
+
+.tab-item-left .on {
+    background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123") -305px 0 no-repeat;
+}
+
+.tab-item-right a {
+    background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123") -463px 0 no-repeat;
+}
+
+.tab-item-right .on {
+    background: url("http://s1.pan.bdstatic.com/static/images/new/login-all.gif?r=201312231123") -463px -40px no-repeat;
+}
+
+.login-tab .tab a:hover {
+    background-color: #fafafa;
+}
+
+.login-tab .tab-selected a {
+    font-weight: bold;
+}
+
+.tang-pass-login a, .tang-pass-login label, .tang-pass-login p, .tang-pass-login li {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.tang-pass-login {
+    position: relative;
+    padding: 0 20px 0 20px;
+}
+
+    .tang-pass-login a {
+        text-decoration: none;
+        color: #1b66c7;
+    }
+
+        .tang-pass-login a:hover {
+            text-decoration: underline;
+        }
+
+.tang-pass-login-hide {
+    position: absolute;
+    top: -9999px;
+}
+
+.tang-pass-login .pass-generalErrorWrapper {
+    height: auto;
+    _height: 28px;
+    min-height: 28px;
+    color: #fc4343;
+}
+
+.tang-pass-login .pass-generalError {
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 8px;
+}
+
+.tang-pass-login .pass-form-item {
+    position: relative;
+    clear: both;
+    z-index: 18;
+}
+
+.pass-form .pass-form-item-password {
+    border: 1px solid #e7e7e7;
+    border-top-width: 0;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.tang-pass-login .pass-form-item.pass-form-item-userName {
+    border: 1px solid #e7e7e7;
+    z-index: 21;
+    border-bottom-width: 0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.tang-pass-login .pass-form-item .pass-label {
+    position: absolute;
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 10px;
+    text-indent: -999em;
+    background: url(input_icon.png) no-repeat;
+    height: 10px;
+    width: 17px;
+    top: 11px;
+    z-index: 999;
+    left: 11px;
+    display: block;
+}
+
+.tang-pass-login .pass-form-item .pass-label-userName {
+    background-position: 0 0;
+}
+
+.tang-pass-login .pass-form-item .pass-label-password {
+    background-position: -16px 0;
+}
+
+.tang-pass-login .pass-form-item .pass-label-verifyCode {
+    display: none;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+input::-ms-reveal {
+    display: none;
+}
+
+.tang-pass-login .pass-form-item .pass-text-input {
+    position: relative;
+    z-index: 17;
+    display: block;
+    padding: 7px 10px;
+    height: 26px;
+    width: 244px;
+    border: 1px solid #dedede;
+    font-size: 14px;
+    color: #666;
+    transition: .3s;
+    line-height: 26px;
+    background-color: #fefefe;
+}
+
+.tang-pass-login .pass-form-item .pass-text-input-verifyCode {
+    height: 12px;
+    margin-left: 0;
+    line-height: 12px;
+}
+
+.tang-pass-login .pass-form-item .pass-text-input-userName {
+    border: 0;
+    width: 228px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.tang-pass-login .pass-form-item .pass-text-input-password {
+    border: 0;
+    width: 228px;
+}
+
+.tang-pass-login .pass-form-item .pass-text-input-verifyCode {
+    width: 76px;
+    float: left;
+}
+
+.tang-pass-login .pass-form-item input.pass-text-input-userName {
+    padding-left: 36px;
+}
+
+.tang-pass-login .pass-form-item input.pass-text-input-password {
+    padding-left: 36px;
+}
+
+.tang-pass-login .pass-form-item input.open {
+    width: 164px;
+    padding-right: 22px;
+}
+
+.tang-pass-login .pass-form-item .pass-item-selectbtn-userName {
+    position: absolute;
+    display: block;
+    height: 16px;
+    width: 16px;
+    background: url(http://s1.pan.bdstatic.com/static/images/pass/pass_login_icons.png) no-repeat 0 -30px;
+    top: 6px;
+    right: 31px;
+    _right: 50px;
+    cursor: pointer;
+}
+
+    .tang-pass-login .pass-form-item .pass-item-selectbtn-userName:hover {
+        background-position: 0 -46px;
+    }
+
+.tang-pass-login .pass-form-item span.open {
+    background-position: -18px -30px;
+}
+
+    .tang-pass-login .pass-form-item span.open:hover {
+        background-position: -18px -46px;
+    }
+
+.tang-pass-login .pass-verifyCode {
+    width: 62px;
+    height: 26px;
+    background: url(http://s1.pan.bdstatic.com/static/images/pass/loading_16.gif) no-repeat center center;
+    border: 1px solid #DDD;
+    float: left;
+    margin-left: 5px;
+}
+
+.tang-pass-login .pass-change-verifyCode {
+    padding-left: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 26px;
+    float: left;
+    cursor: pointer;
+}
+
+.tang-pass-login .pass-form-item .pass-placeholder {
+    position: absolute;
+    z-index: 1999;
+    display: block;
+    top: 1px;
+    _top: 6px;
+    left: 0;
+    height: 28px;
+    line-height: 40px;
+    _line-height: 30px;
+    width: 140px;
+    padding-left: 13px;
+    font-size: 14px;
+    color: #ccc;
+    cursor: text;
+}
+
+.tang-pass-login .pass-form-item .pass-placeholder-verifyCode {
+    width: 50px;
+    line-height: 26px;
+    *line-height: 28px;
+    _line-height: 22px;
+    left: 11px;
+    padding-left: 0;
+}
+
+.tang-pass-login .pass-form-item .pass-placeholder-userName, .tang-pass-login .pass-form-item .pass-placeholder-password {
+    left: 20px;
+}
+
+.tang-pass-login .pass-form-item .pass-clearbtn {
+    position: absolute;
+    z-index: 20;
+    top: 12px;
+    right: 6px;
+    _right: 26px;
+    height: 16px;
+    width: 16px;
+    background: url(http://s1.pan.bdstatic.com/static/images/pass/pass_login_icons.png) no-repeat 0 0;
+    cursor: pointer;
+}
+
+.tang-pass-login .pass-form-item span.pass-clearbtn-verifyCode {
+    right: inherit;
+    left: 75px;
+    z-index: 1999;
+}
+
+.tang-pass-login .pass-form-item span.pass-clearbtn-smsVerifyCode {
+    right: inherit;
+    left: 90px;
+}
+
+.tang-pass-login .pass-form-item .pass-clearbtn:hover {
+    background-position: 0 -16px;
+}
+
+.tang-pass-login .pass-form-item-memberPass {
+    margin-bottom: 10px;
+    padding-top: 7px;
+}
+
+    .tang-pass-login .pass-form-item-memberPass input {
+        vertical-align: middle;
+    }
+
+    .tang-pass-login .pass-form-item-memberPass label {
+        color: #666;
+        margin-left: 5px;
+    }
+
+.tang-pass-login .pass-form-item-submit {
+    position: relative;
+}
+
+    .tang-pass-login .pass-form-item-submit input {
+        width: 276px;
+        height: 41px;
+        background: #3f89ec;
+        border-radius: 3px;
+        transition: .3s;
+    }
+
+        .tang-pass-login .pass-form-item-submit input:hover {
+            background: #4490f7;
+        }
+
+        .tang-pass-login .pass-form-item-submit input:focus {
+            background: #3a84e8;
+        }
+
+    .tang-pass-login .pass-form-item-submit .pass-button-submit {
+        font-size: 14px;
+        font-weight: bold;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .tang-pass-login .pass-form-item-submit .pass-reglink {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        _right: 20px;
+    }
+
+    .tang-pass-login .pass-form-item-submit .pass-fgtpwd {
+        position: absolute;
+        top: -26px;
+        right: 0;
+        _right: 20px;
+    }
+
+#pass-phoenix-login {
+    margin-top: 8px;
+    *margin-top: 15px;
+    padding: 0 20px 10px 20px;
+}
+
+    #pass-phoenix-login .pass-phoenix-title {
+        color: #666;
+        line-height: 16px;
+        height: 16px;
+        padding: 2px 0;
+    }
+
+    #pass-phoenix-login .pass-phoenix-list {
+        clear: both;
+        line-height: 20px;
+        zoom: 1;
+    }
+
+        #pass-phoenix-login .pass-phoenix-list:after {
+            line-height: 20px;
+            content: '\20';
+            display: block;
+            height: 0;
+            clear: both;
+        }
+
+        #pass-phoenix-login .pass-phoenix-list .bd-acc-list {
+            float: left;
+        }
+
+.pass-qrcode-btn, .pass-sms-btn, .pass-normal-btn, .pass-unamelogin-btn, .pass-emaillogin-btn {
+    display: inline-block;
+    margin-right: 15px;
+    color: #00C;
+    text-decoration: underline;
+    padding-left: 18px;
+    cursor: pointer;
+    font-size: 12px;
+    background: url('http://s1.pan.bdstatic.com/static/images/pass/pass_login_icons.png?r=201312231123') no-repeat -181px -64px;
+    width: 0;
+    height: 18px;
+    overflow: hidden;
+    float: left;
+}
+
+.pass-normal-btn {
+    background-position: -217px -64px;
+}
+
+.pass-unamelogin-btn {
+    background-position: -217px -64px;
+}
+
+.pass-sms-btn {
+    background-position: -108px -64px;
+}
+
+#pass-phoenix-login .pass-phoenix-list .bd-acc-tsina {
+    background-position: 0 -64px;
+}
+
+#pass-phoenix-login .pass-phoenix-list .bd-acc-renren {
+    background-position: -72px -64px;
+}
+
+#pass-phoenix-login .pass-phoenix-list .bd-acc-qzone {
+    background-position: -36px -64px;
+}
+
+#pass-phoenix-login .pass-phoenix-list li {
+    float: left;
+    display: inline-block;
+    margin-right: 15px;
+    color: #00C;
+    text-decoration: underline;
+    padding-left: 18px;
+    cursor: pointer;
+    font-size: 12px;
+    list-style: none;
+    width: 0;
+    height: 18px;
+    overflow: hidden;
+}
+
+#pass-phoenix-list-login li {
+    background: url("http://s1.pan.bdstatic.com/static/images/pass/pass_login_icons.png?r=201312231123") no-repeat;
+}
+
+.choiceuser-article {
+    padding: 0 20px;
+}
+
+    .choiceuser-article .choiceuser-msg {
+        margin-top: 10px;
+        font-size: 12px;
+        color: #666;
+        line-height: 24px;
+    }
+
+    .choiceuser-article .choiceuser-back {
+        margin-top: 10px;
+        clear: both;
+    }
+
+        .choiceuser-article .choiceuser-back a {
+            display: block;
+            text-align: right;
+            color: #1b66c7;
+            text-decoration: none;
+        }
+
+    .choiceuser-article .choiceuser-btn:after {
+        content: '\20';
+        display: block;
+        height: 0;
+        clear: both;
+    }
+
+    .choiceuser-article .choiceuser-btn {
+        padding-left: 20px;
+        zoom: 1;
+    }
+
+        .choiceuser-article .choiceuser-btn input {
+            display: block;
+            float: left;
+            margin-right: 15px;
+            width: 80px;
+            height: 32px;
+            border-radius: 3px;
+            transition: .3s;
+            border: 0;
+            margin: 10px 10px 0 0;
+            cursor: pointer;
+            color: #666;
+            border: 1px solid #ddd;
+            background-color: #f7f7f7;
+            font-weight: bold;
+        }
+
+            .choiceuser-article .choiceuser-btn input:hover {
+                background-color: #eee;
+                border-color: #dadada;
+            }
+
+.tang-pass-qrcode {
+    padding: 0 20px;
+}
+
+    .tang-pass-qrcode .tang-pass-qrcode-title {
+        height: 30px;
+        line-height: 30px;
+        color: #666;
+        font-weight: bold;
+    }
+
+    .tang-pass-qrcode .tang-pass-qrcode-content {
+        text-align: center;
+        margin: 30px 0;
+    }
+
+        .tang-pass-qrcode .tang-pass-qrcode-content img {
+            width: 100px;
+            height: 100px;
+        }
+
+    .tang-pass-qrcode .tang-pass-qrcode-info {
+        line-height: 18px;
+        color: #999;
+        font-weight: normal;
+    }
+
+    .tang-pass-qrcode .pass-qrcode-link-back {
+        display: block;
+        text-align: right;
+        text-decoration: none;
+        color: #1b66c7;
+        cursor: pointer;
+    }
+
+        .tang-pass-qrcode .pass-qrcode-link-back:hover {
+            text-decoration: underline;
+        }
+
+.tang-pass-sms {
+    display: none;
+}
+
+    .tang-pass-sms .tang-pass-sms-title {
+        height: 30px;
+        line-height: 30px;
+        color: #666;
+        font-weight: bold;
+    }
+
+    .tang-pass-sms .tang-pass-sms-tip {
+        line-height: 18px;
+        color: #999;
+        font-weight: normal;
+    }
+
+    .tang-pass-sms p.pass-form-item-smsVerifyCode:after, .tang-pass-login p.pass-form-item-verifyCode:after {
+        line-height: 20px;
+        content: '\20';
+        display: block;
+        height: 0;
+        clear: both;
+    }
+
+    .tang-pass-sms p.pass-form-item-smsVerifyCode, .tang-pass-login p.pass-form-item-verifyCode {
+        position: relative;
+        height: 28px;
+        margin-top: 10px;
+        zoom: 1;
+    }
+
+    .tang-pass-sms .pass-form-item .pass-sms-link-back {
+        display: block;
+        text-align: right;
+        padding-top: 10px;
+    }
+
+    .tang-pass-sms .pass-form-item input.pass-text-input-smsPhone {
+        padding-left: 20px;
+        background: url(http://s1.pan.bdstatic.com/static/images/pass/input_icons_16.png?r=201312231123r=201311290846) no-repeat 4px -38px;
+    }
+
+    .tang-pass-sms .pass-form-item input.pass-text-input-smsVerifyCode {
+        width: 90px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .tang-pass-sms .pass-form-item span.pass-placeholder-smsPhone {
+        padding-left: 22px;
+    }
+
+    .tang-pass-sms .pass-form-item span.pass-placeholder-smsVerifyCode {
+        width: 70px;
+    }
+
+    .tang-pass-sms .pass-form-item span.pass-item-timer, .tang-pass-sms .pass-form-item span.pass-item-time-timing {
+        width: 84px;
+    }
+
+.tang-pass-login .pass-item-timer {
+    display: block;
+    float: left;
+    height: 28px;
+    width: 84px;
+    font-size: 12px;
+    color: #666;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    transition: .3s;
+}
+
+    .tang-pass-login .pass-item-timer:hover {
+        background-color: #eee;
+        border-color: #dadada;
+    }
+
+.tang-pass-login .pass-item-time-timing {
+    display: block;
+    float: left;
+    height: 28px;
+    width: 84px;
+    font-size: 12px;
+    transition: .3s;
+    color: #999;
+    border: 1px solid #ebebeb;
+    background-color: #f6f6f6;
+    cursor: default;
+}
+
+.tang-pass-login .pass-suggestion-list {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    z-index: 21;
+    top: 28px;
+    _top: 29px;
+    left: 0;
+    border: 1px solid #dedede;
+    border-top: 0;
+    background: #fff;
+    width: 206px;
+}
+
+.tang-pass-login li.pass-item-suggsetion {
+    position: relative;
+    z-index: 2001;
+    line-height: 14px;
+    padding: 5px 0 5px 6px;
+    color: #888;
+    font-family: '宋体';
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+    word-spacing: break-word;
+    word-break: break-all;
+}
+
+    .tang-pass-login li.pass-item-suggsetion a {
+        position: absolute;
+        display: none;
+        top: 4px;
+        right: 4px;
+        height: 16px;
+        width: 16px;
+        background: url(http://s1.pan.bdstatic.com/static/images/pass/pass_login_icons.png) no-repeat 0 0;
+    }
+
+.tang-pass-login li.pass-item-suggsetion_hover a {
+    display: block;
+}
+
+.tang-pass-login li.pass-item-suggsetion a:hover {
+    background-position: 0 -16px;
+}
+
+.tang-pass-login .pass-item-suggsetion_hover {
+    background-color: #f7f7f7;
+}
+
+.pass-login-title {
+    clear: both;
+    height: 35px;
+    _height: 20px;
+    padding: 0 0 0 20px;
+    font-size: 14px;
+    color: #2486c4;
+    font-weight: bold;
+}
+
+.pass-login-title {
+    line-height: 50px;
+    _line-height: 30px;
+}

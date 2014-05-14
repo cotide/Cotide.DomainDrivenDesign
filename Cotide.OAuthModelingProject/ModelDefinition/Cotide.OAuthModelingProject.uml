@@ -1,0 +1,1249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="28a2f905-af76-4bb9-9b0c-8533b191fd15"
+  name="Cotide.OAuthModelingProject" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction
+        Id="8abb4797-8100-4ffa-87e7-28615a3d903b"
+        name="OAuth"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <ownedCommentsInternal>
+          <comment
+            Id="19b9d341-592c-4b17-9fae-71aec0989552">
+            <body> 授权申请参数如下：
+  1.client_id:客户端ID
+  2.response_type: 请求类型   
+     code:代码方式)  
+     bearer:直接检测)  
+  3.state: 状态码 (防CSRF 攻击)
+  4.redirect_uri: 回调页面地址 
+  5.scope :应用授权作用域
+     snsapi_base :（不弹出授权页面，直接跳转，返回授权令牌）
+     snsapi_userinfo :（弹出授权页面,确定授权后，返回授权令牌）</body>
+          </comment>
+          <comment
+            Id="9a3c76d8-1aac-4968-aa14-4c05e96a30d7">
+            <body>如果验证客户端为合法用户，响应信息如下：
+Grant Code：授权令牌
+Scope: 应用作用域
+State:  状态码 (防CSRF 攻击)
+否则 返回401状态码</body>
+          </comment>
+          <comment
+            Id="0fd3e9a6-1178-4fea-b8e6-ba6bc42ecad6">
+            <body>请求Token
+1. client_auth: 客户端验证信息
+    (ID/Secret) 组合信息 
+2. code: 授权令牌
+3. grant_type: 授权状态
+    code : 代码方式  
+    bearer : 直接检测 
+4. redirect_uri:  回调页面地址
+ </body>
+          </comment>
+          <comment
+            Id="df96a8ce-21ee-49c1-bae4-c961e5f12161">
+            <body>返回Token(访问令牌)</body>
+          </comment>
+        </ownedCommentsInternal>
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="2f5ae176-09fd-4acd-a5be-e3372399d78c"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="eb042554-2811-431b-82b5-b16d0a8fb90c"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="88362d7c-4862-480c-8f31-b2e8a6d51736"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b43ab133-fbd9-49e3-b213-c9256db9c96f"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="67c54d94-8c44-4604-8dad-8218994a4f07"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1a5ec6a8-d4f8-4d48-8ef0-a9347a53aecb"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="e7cb7392-fbff-4a6e-bce6-e2bceeb8666c"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="88362d7c-4862-480c-8f31-b2e8a6d51736"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b0e742b8-e79b-47b1-820b-4b98e3baba1b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bba79fc6-5e5d-4d54-90cd-9cb7da3c15b1"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="328c6d4a-ff10-4871-8ed0-da018d9a690f"
+                LastKnownName="Client  ( 客户端)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b43ab133-fbd9-49e3-b213-c9256db9c96f"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="e870421d-61b4-4587-ad35-da0963a267ea"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="51d47a25-7c6f-4883-8ae6-facd81b8d9af"
+                LastKnownName="Resource Owner (资源拥有者)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="71ab8da2-3a84-4482-8350-977e4e583ee6"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="1e118049-5003-4368-9f53-bbffb63fcdb7"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1e41c376-5832-43a2-8c56-0cc070144e48"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="db0a20b5-3cd9-422d-9d8b-9eca25aa9ffa"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="1e118049-5003-4368-9f53-bbffb63fcdb7"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1239751b-befe-4821-bc7b-40f2ed8b604b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="51d47a25-7c6f-4883-8ae6-facd81b8d9af"
+                LastKnownName="Resource Owner (资源拥有者)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="67c54d94-8c44-4604-8dad-8218994a4f07"
+            name="MessageOccurrenceSpecification11">
+            <covered>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1e41c376-5832-43a2-8c56-0cc070144e48"
+            name="MessageOccurrenceSpecification12">
+            <covered>
+              <lifelineMoniker
+                Id="51d47a25-7c6f-4883-8ae6-facd81b8d9af"
+                LastKnownName="Resource Owner (资源拥有者)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="db0a20b5-3cd9-422d-9d8b-9eca25aa9ffa"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="51d47a25-7c6f-4883-8ae6-facd81b8d9af"
+                LastKnownName="Resource Owner (资源拥有者)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1a5ec6a8-d4f8-4d48-8ef0-a9347a53aecb"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="71ab8da2-3a84-4482-8350-977e4e583ee6"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="994d78a6-00df-4ee7-8f52-cf5f6e14980e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="51d47a25-7c6f-4883-8ae6-facd81b8d9af"
+                LastKnownName="Resource Owner (资源拥有者)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="e7cb7392-fbff-4a6e-bce6-e2bceeb8666c"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ff500577-9510-4fed-9697-d68fda699927"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="328c6d4a-ff10-4871-8ed0-da018d9a690f"
+                LastKnownName="Client  ( 客户端)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="eb042554-2811-431b-82b5-b16d0a8fb90c"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7e2aa05c-b978-48ec-868e-b96000da37b4"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="c23b7a11-57c4-4368-9ab3-cbb85fc5e729"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="0369e261-56d8-4765-bef5-42d6d871a4b1"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="fa97b37f-afd6-4d14-b946-24c4f6fa3f8f"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="b37578a1-c449-4156-b654-ce22a06be2cf"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c81d4649-701c-41e9-888e-2b8692a68f97"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="fa97b37f-afd6-4d14-b946-24c4f6fa3f8f"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5e3a4430-ffb6-43f7-acc7-604726b32b7f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="b37578a1-c449-4156-b654-ce22a06be2cf"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="75bfa67a-fa17-4a9e-bb89-90015a19c12b"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="328c6d4a-ff10-4871-8ed0-da018d9a690f"
+                LastKnownName="Client  ( 客户端)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c81d4649-701c-41e9-888e-2b8692a68f97"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3da5769c-2369-4f56-bdc5-cfbe64a74e58"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="328c6d4a-ff10-4871-8ed0-da018d9a690f"
+                LastKnownName="Client  ( 客户端)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="0369e261-56d8-4765-bef5-42d6d871a4b1"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5927f65a-1bc1-4139-88c2-0ee32a0ebead"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="217598c6-1a57-4d15-a90e-e4e0efa772a7"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="85120263-7b7b-4d5f-b81e-f6ab1f0ef1b6"
+                LastKnownName="Resource Server（资源服务）"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="54d5d022-257c-4529-84af-aa1e7fc23f27"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c87eb2de-7a61-4e34-a5c4-c64260572e0f"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="6ff7e442-ae86-43d8-8018-6f73d8a5cdb3"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4cb40c3a-914d-4d10-a1f8-6f17262aa090"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c87eb2de-7a61-4e34-a5c4-c64260572e0f"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7ea4068b-1867-4016-8318-c8b1895ac216"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="85120263-7b7b-4d5f-b81e-f6ab1f0ef1b6"
+                LastKnownName="Resource Server（资源服务）"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9f6274eb-82f0-42ed-9474-84d2c3560a1c"
+            name="MessageOccurrenceSpecification25">
+            <covered>
+              <lifelineMoniker
+                Id="328c6d4a-ff10-4871-8ed0-da018d9a690f"
+                LastKnownName="Client  ( 客户端)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="6ff7e442-ae86-43d8-8018-6f73d8a5cdb3"
+            name="MessageOccurrenceSpecification26">
+            <covered>
+              <lifelineMoniker
+                Id="85120263-7b7b-4d5f-b81e-f6ab1f0ef1b6"
+                LastKnownName="Resource Server（资源服务）"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4cb40c3a-914d-4d10-a1f8-6f17262aa090"
+            name="MessageOccurrenceSpecification27">
+            <covered>
+              <lifelineMoniker
+                Id="85120263-7b7b-4d5f-b81e-f6ab1f0ef1b6"
+                LastKnownName="Resource Server（资源服务）"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1e58dad5-27ca-4cf4-bf70-3732a676ec82"
+            name="MessageOccurrenceSpecification28">
+            <covered>
+              <lifelineMoniker
+                Id="328c6d4a-ff10-4871-8ed0-da018d9a690f"
+                LastKnownName="Client  ( 客户端)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="54d5d022-257c-4529-84af-aa1e7fc23f27"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="7f4f1df7-8eac-48a9-893e-624721cafb27"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="85120263-7b7b-4d5f-b81e-f6ab1f0ef1b6"
+                LastKnownName="Resource Server（资源服务）"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="328c6d4a-ff10-4871-8ed0-da018d9a690f"
+            name="Client  ( 客户端)"
+            isActor="false"
+            lifelineDisplayName="‎Client  ( 客户端)‎">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="bba79fc6-5e5d-4d54-90cd-9cb7da3c15b1"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ff500577-9510-4fed-9697-d68fda699927"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="75bfa67a-fa17-4a9e-bb89-90015a19c12b"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3da5769c-2369-4f56-bdc5-cfbe64a74e58"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9f6274eb-82f0-42ed-9474-84d2c3560a1c"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1e58dad5-27ca-4cf4-bf70-3732a676ec82"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="0cefaf09-ce59-4286-9cd1-3e3aec0af1bd"
+            name="Authorization Server (鉴权服务)"
+            isActor="false"
+            lifelineDisplayName="‎Authorization Server (鉴权服务)‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="88362d7c-4862-480c-8f31-b2e8a6d51736"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="eb042554-2811-431b-82b5-b16d0a8fb90c"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="fa97b37f-afd6-4d14-b946-24c4f6fa3f8f"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0369e261-56d8-4765-bef5-42d6d871a4b1"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="51d47a25-7c6f-4883-8ae6-facd81b8d9af"
+            name="Resource Owner (资源拥有者)"
+            isActor="false"
+            lifelineDisplayName="‎Resource Owner (资源拥有者)‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="1e118049-5003-4368-9f53-bbffb63fcdb7"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="71ab8da2-3a84-4482-8350-977e4e583ee6"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="85120263-7b7b-4d5f-b81e-f6ab1f0ef1b6"
+            name="Resource Server（资源服务）"
+            isActor="false"
+            lifelineDisplayName="‎Resource Server（资源服务）‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="c87eb2de-7a61-4e34-a5c4-c64260572e0f"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="54d5d022-257c-4529-84af-aa1e7fc23f27"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="aa16eb2a-24a7-4a52-acfb-44894b7922fc"
+            name="A. 授权申请"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bba79fc6-5e5d-4d54-90cd-9cb7da3c15b1"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b43ab133-fbd9-49e3-b213-c9256db9c96f"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="48ced2cd-7082-47cf-a3a6-4b70e0ebdcdd"
+            name="B.验证客户端身份 "
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="67c54d94-8c44-4604-8dad-8218994a4f07"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1e41c376-5832-43a2-8c56-0cc070144e48"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="530c9a5b-bfd9-4b9e-943c-96aad4d64e77"
+            name="返回验证结果"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="db0a20b5-3cd9-422d-9d8b-9eca25aa9ffa"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1a5ec6a8-d4f8-4d48-8ef0-a9347a53aecb"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="1feaf4cb-d85f-4c6d-944e-3a781e71a085"
+            name=" C.返回授权信息"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="e7cb7392-fbff-4a6e-bce6-e2bceeb8666c"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ff500577-9510-4fed-9697-d68fda699927"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2fda00a3-cde4-4d21-ac69-f278f1405546"
+            name="D.请求Token"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="75bfa67a-fa17-4a9e-bb89-90015a19c12b"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="b37578a1-c449-4156-b654-ce22a06be2cf"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="cd60b18d-dc95-4796-a19f-6cca3f5be7eb"
+            name="E. 返回Token信息"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c81d4649-701c-41e9-888e-2b8692a68f97"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3da5769c-2369-4f56-bdc5-cfbe64a74e58"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="88a59d8e-b39c-4976-8409-3c68ddfdcc73"
+            name="F. 带Token请求资源"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9f6274eb-82f0-42ed-9474-84d2c3560a1c"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="6ff7e442-ae86-43d8-8018-6f73d8a5cdb3"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b15bdef9-65f8-4d12-8b47-821360cf97d1"
+            name="返回资源数据"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4cb40c3a-914d-4d10-a1f8-6f17262aa090"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1e58dad5-27ca-4cf4-bf70-3732a676ec82"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b0e742b8-e79b-47b1-820b-4b98e3baba1b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7e2aa05c-b978-48ec-868e-b96000da37b4"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1239751b-befe-4821-bc7b-40f2ed8b604b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="994d78a6-00df-4ee7-8f52-cf5f6e14980e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5e3a4430-ffb6-43f7-acc7-604726b32b7f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5927f65a-1bc1-4139-88c2-0ee32a0ebead"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7ea4068b-1867-4016-8318-c8b1895ac216"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="7f4f1df7-8eac-48a9-893e-624721cafb27"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="f2357ace-43ac-42c8-afe1-ee38fa415ad6"
+        name="OAuth2_Client"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <lifelines>
+          <lifeline
+            Id="1ad30391-be9f-494c-a802-17756878c587"
+            name="Client  ( 客户端)"
+            isActor="false"
+            lifelineDisplayName="‎Client  ( 客户端)‎" />
+          <lifeline
+            Id="427ba6b2-cf8a-497c-ae83-778dba90d27e"
+            name="Authorization Server (鉴权服务)"
+            isActor="false"
+            lifelineDisplayName="‎Authorization Server (鉴权服务)‎" />
+          <lifeline
+            Id="cb170c46-dc88-4a61-a0f5-4735b28c2cba"
+            name="Resource Owner (资源拥有者)"
+            isActor="false"
+            lifelineDisplayName="‎Resource Owner (资源拥有者)‎" />
+        </lifelines>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="fa508a81-8c0e-4642-8ec9-e7ee206a1aff"
+        name="OAuth2API"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <ownedCommentsInternal>
+          <comment
+            Id="7ae391e9-762f-4c24-87f9-5518cd8501fc">
+            <body>请求Token
+1. client_auth: 客户端验证信息
+    (账号/密码) 组合信息 
+2. code: 授权令牌
+3. grant_type: 授权状态
+    code : 代码方式  
+    bearer : 直接检测 
+4. redirect_uri:  回调页面地址</body>
+          </comment>
+        </ownedCommentsInternal>
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="fb46dffc-d211-4a96-b6e1-6e0bee7fd012"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="b3f511f5-45c0-41a5-a1c7-6a502f0f0c38"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="990b0e4f-0491-4f28-814b-5428df9d6de5"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="f74e0b65-bd9b-46f3-943b-f5d649d0c851"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="30eb026f-1d34-4266-abdb-ad86ee33c409"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="25f9b605-b42b-4d40-8198-92bcc5140314"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="f74e0b65-bd9b-46f3-943b-f5d649d0c851"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1d59bc83-6734-4d7f-9bb5-d6ea6e6ec36a"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b3f511f5-45c0-41a5-a1c7-6a502f0f0c38"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="30eb026f-1d34-4266-abdb-ad86ee33c409"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="b3f511f5-45c0-41a5-a1c7-6a502f0f0c38"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="68738698-1b32-478a-9ef3-c8dd52e988c7"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="dce5de21-eede-433e-96b1-5b736f80f8da"
+                LastKnownName="Client  ( 客户端)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4d9a81cd-618c-4bc3-93f7-43df92c50755"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="dce5de21-eede-433e-96b1-5b736f80f8da"
+                LastKnownName="Client  ( 客户端)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="25f9b605-b42b-4d40-8198-92bcc5140314"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="b3f511f5-45c0-41a5-a1c7-6a502f0f0c38"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="990b0e4f-0491-4f28-814b-5428df9d6de5"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="889558cc-edfa-4067-b887-f0f2c4fec3a0"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="b3f511f5-45c0-41a5-a1c7-6a502f0f0c38"
+                LastKnownName="Authorization Server (鉴权服务)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="c5c57152-9d3a-4e16-ba0b-652fd2c6d4b5"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="1d43ea51-2927-4596-9fec-ef623ae785a1"
+                LastKnownName="Resource Server（资源服务）"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7f97e988-ffdf-45a3-80e2-a79ea7fd9f5e"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="c03158b0-93d9-4f18-a687-452513c7e482"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a337dbf1-4c74-4153-b7c6-d8a9d9ab1a30"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="60abe50f-23cb-4f49-85c7-c15826260d6f"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="c03158b0-93d9-4f18-a687-452513c7e482"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3692a21e-e731-401d-adaf-6a61511f62ab"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1d43ea51-2927-4596-9fec-ef623ae785a1"
+                LastKnownName="Resource Server（资源服务）"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cde4456f-7997-4cec-9adb-ab9064e65f6a"
+            name="MessageOccurrenceSpecification25">
+            <covered>
+              <lifelineMoniker
+                Id="dce5de21-eede-433e-96b1-5b736f80f8da"
+                LastKnownName="Client  ( 客户端)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a337dbf1-4c74-4153-b7c6-d8a9d9ab1a30"
+            name="MessageOccurrenceSpecification26">
+            <covered>
+              <lifelineMoniker
+                Id="1d43ea51-2927-4596-9fec-ef623ae785a1"
+                LastKnownName="Resource Server（资源服务）"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="60abe50f-23cb-4f49-85c7-c15826260d6f"
+            name="MessageOccurrenceSpecification27">
+            <covered>
+              <lifelineMoniker
+                Id="1d43ea51-2927-4596-9fec-ef623ae785a1"
+                LastKnownName="Resource Server（资源服务）"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4325a839-3fe7-4bf6-af68-8b023abdd36f"
+            name="MessageOccurrenceSpecification28">
+            <covered>
+              <lifelineMoniker
+                Id="dce5de21-eede-433e-96b1-5b736f80f8da"
+                LastKnownName="Client  ( 客户端)"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7f97e988-ffdf-45a3-80e2-a79ea7fd9f5e"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="6dc5b096-2d4c-44f3-a5a7-3592030b8cdb"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="1d43ea51-2927-4596-9fec-ef623ae785a1"
+                LastKnownName="Resource Server（资源服务）"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="dce5de21-eede-433e-96b1-5b736f80f8da"
+            name="Client  ( 客户端)"
+            isActor="false"
+            lifelineDisplayName="‎Client  ( 客户端)‎">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="68738698-1b32-478a-9ef3-c8dd52e988c7"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4d9a81cd-618c-4bc3-93f7-43df92c50755"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="cde4456f-7997-4cec-9adb-ab9064e65f6a"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4325a839-3fe7-4bf6-af68-8b023abdd36f"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="b3f511f5-45c0-41a5-a1c7-6a502f0f0c38"
+            name="Authorization Server (鉴权服务)"
+            isActor="false"
+            lifelineDisplayName="‎Authorization Server (鉴权服务)‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="f74e0b65-bd9b-46f3-943b-f5d649d0c851"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="990b0e4f-0491-4f28-814b-5428df9d6de5"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="c372182e-5010-47ff-b7de-b970ab100231"
+            name="Resource Owner (资源拥有者)"
+            isActor="false"
+            lifelineDisplayName="‎Resource Owner (资源拥有者)‎" />
+          <lifeline
+            Id="1d43ea51-2927-4596-9fec-ef623ae785a1"
+            name="Resource Server（资源服务）"
+            isActor="false"
+            lifelineDisplayName="‎Resource Server（资源服务）‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="c03158b0-93d9-4f18-a687-452513c7e482"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7f97e988-ffdf-45a3-80e2-a79ea7fd9f5e"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="8aa94dcd-5edd-46ed-b5d7-94ad8e62503b"
+            name="D.请求Token"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="68738698-1b32-478a-9ef3-c8dd52e988c7"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="30eb026f-1d34-4266-abdb-ad86ee33c409"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="27f010ce-5f5d-46b1-bef8-b4ac3c3c903c"
+            name="E. 返回Token信息"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="25f9b605-b42b-4d40-8198-92bcc5140314"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4d9a81cd-618c-4bc3-93f7-43df92c50755"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="93361296-a6a0-4775-88f8-043cea3bb3dc"
+            name="F. 带Token请求资源"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cde4456f-7997-4cec-9adb-ab9064e65f6a"
+                LastKnownName="MessageOccurrenceSpecification25"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a337dbf1-4c74-4153-b7c6-d8a9d9ab1a30"
+                LastKnownName="MessageOccurrenceSpecification26"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="fc1d0796-6246-497a-b584-c591d175fed2"
+            name="返回资源数据"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="60abe50f-23cb-4f49-85c7-c15826260d6f"
+                LastKnownName="MessageOccurrenceSpecification27"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4325a839-3fe7-4bf6-af68-8b023abdd36f"
+                LastKnownName="MessageOccurrenceSpecification28"
+                LastKnownLocation="Cotide.OAuthModelingProject.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3692a21e-e731-401d-adaf-6a61511f62ab"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="6dc5b096-2d4c-44f3-a5a7-3592030b8cdb"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1d59bc83-6734-4d7f-9bb5-d6ea6e6ec36a"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="889558cc-edfa-4067-b887-f0f2c4fec3a0"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

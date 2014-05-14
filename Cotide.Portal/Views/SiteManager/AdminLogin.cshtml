@@ -1,0 +1,90 @@
+﻿@model Cotide.Portal.Controllers.ViewModels.Login.AdminLoginViewModel
+@{
+    ViewBag.Title = "管理员登录";
+    Layout = null;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>101外卖网-后台管理-管理员登录</title>
+    <link href="../../Content/style/keqie/imgs/logo.ico" rel="shortcut icon" type="images/x-icon" />
+    @Html.StyleSheet("style/keqie/imgs/infocenter.css")
+    @Html.JavaScript("jquery/jquery-1.10.2.min.js")
+    <script type="text/javascript">
+        $(function () {
+            $("#valiCode .pass-change-verifyCode").bind("click", function () {
+                var timestamp = Date.parse(new Date());
+                this.src = "@Url.Action("GetCaptcha", "Site")?t=" + timestamp;
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <div id="login-body" style="width: 100%">
+        <div>
+            <div class="clearfix" id="login-header">
+                <div>                   
+                </div>
+                <span class="login-title">
+                    <a class="b-no-ln" hidefocus="true" href="http://www.101wmw.com/" target="_blank">101外卖网首页</a>
+                </span>
+            </div>
+            <div id="login-middle">
+                <div class="img-content">
+                    <a hidefocus="true" href="javascript:;">
+                        <img class="index-slide-img current" src="../../Content/style/keqie/imgs/multiterminal.jpg" />
+                    </a>
+                </div>
+                <div class="header-login">
+                    <div class="pass-login-title">登录管理员账号</div>
+                    <div class="tang-pass-login" id="netdisk_pass_login_form">
+                        @using (Html.BeginForm("AdminLogin", "Site", FormMethod.Post, new { @Id = "loginForm" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+                            <p class="pass-generalErrorWrapper">
+                                <span class="pass-generalError">@ViewBag.IMessage</span>
+                            </p>
+                            <p class="pass-form-item pass-form-item-userName" style="display: block">
+                                <label class="pass-label pass-label-userName">用户名</label>
+                                @Html.TextBoxFor(x => x.UserName, new { @class = "pass-text-input pass-text-input-userName", @placeholder = "用户名", @maxlength = "20", @autocomplete = "off" })
+                            </p>
+                            <p class="pass-form-item pass-form-item-password" style="display: block">
+                                <label class="pass-label pass-label-password">密码</label>
+                                @Html.PasswordFor(x => x.Paw, new { @class = "pass-text-input pass-text-input-password", @style = "border: 1px solid #dedede;", @placeholder = "密码", @maxlength = "20" })
+                            </p>
+                            <p class="pass-form-item pass-form-item-verifyCode">
+                                <label class="pass-label pass-label-verifyCode">验证码</label>
+                                @Html.TextBoxFor(x => x.Captcha, new { @class = "pass-text-input pass-text-input-verifyCode", @placeholder = "验证码", @maxlength = "6" })
+                                <img class="pass-verifyCode" id="valiCode" src="@Url.Action("GetCaptcha", "Site")" alt="验证码" />
+                                <a href="javascript:void(0);" class="pass-change-verifyCode">换一张</a>
+                            </p>
+                            <p class="pass-form-item pass-form-item-memberPass">
+                                <input type="checkbox" name="memberPass" checked="checked" />下次自动登录
+                            </p>
+                            <p class="pass-form-item pass-form-item-submit">
+                                <input type="submit" value="登录" class="pass-button-submit" />
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                ©2014 101外卖网 <a href="javascript:void(0);">开发者中心</a> | 
+                <a href="javascript:void(0);" target="_blank">服务协议</a> | 
+                <a href="javascript:void(0);" target="_blank">权利声明</a> | 
+                <a href="javascript:void(0);" target="_blank">版本更新</a> | 
+                <a href="javascript:void(0);" target="_blank">帮助中心</a> | 
+                <a href="javascript:void(0);" target="_blank">问题反馈</a>
+            </div>
+        </div>
+    </div>
+    <div style="display: none">
+    </div>
+</body>
+</html>

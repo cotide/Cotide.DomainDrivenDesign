@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="事务接口">
+    <Position X="2.594" Y="1.042" Height="0.29" Width="0.898" />
+  </Comment>
+  <Comment CommentText="EF 事务接口">
+    <Position X="6.271" Y="1.01" Height="0.29" Width="0.898" />
+  </Comment>
+  <Comment CommentText="EF 事务实现">
+    <Position X="6.25" Y="3.99" Height="0.292" Width="1.106" />
+  </Comment>
+  <Class Name="Cotide.Infrastructure.UnitOfWork.UnitOfWorkContextBase">
+    <Position X="5.5" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAQAiAABAACQAAAAABAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>UnitOfWork\UnitOfWorkContextBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cotide.Infrastructure.UnitOfWork.EfUnitOfWorkContext">
+    <Position X="1.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnitOfWork\EfUnitOfWorkContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Cotide.Infrastructure.UnitOfWork.Impl.IUnitOfWork">
+    <Position X="1.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnitOfWork\Impl\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Cotide.Infrastructure.UnitOfWork.Impl.IUnitOfWorkContext">
+    <Position X="5.25" Y="1.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAABAAAAAAAAABAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>UnitOfWork\Impl\IUnitOfWorkContext.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

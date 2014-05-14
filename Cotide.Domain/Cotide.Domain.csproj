@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{836705A7-0529-45E5-9392-3DA25BE915BE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cotide.Domain</RootNamespace>
+    <AssemblyName>Cotide.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contracts\Commands\ClientAuthorization\DeleteTokenCommand.cs" />
+    <Compile Include="Contracts\Commands\Client\CreateClientCommand.cs" />
+    <Compile Include="Contracts\Commands\ClientAuthorization\CreateTokenCommand.cs" />
+    <Compile Include="Contracts\Commands\Client\DeleteClientCommand.cs" />
+    <Compile Include="Contracts\Commands\Client\UpdateClientCommand.cs" />
+    <Compile Include="Contracts\Commands\User\CreateUserCommand.cs" />
+    <Compile Include="Contracts\Context\IUnitOfWork.cs" />
+    <Compile Include="Contracts\Context\IUnitOfWorkContext.cs" />
+    <Compile Include="Contracts\Context\UnitOfWorkContextBase.cs" />
+    <Compile Include="Contracts\QueryServices\IClientAuthorizationQueryService.cs" />
+    <Compile Include="Contracts\QueryServices\IClientQueryService.cs" />
+    <Compile Include="Contracts\QueryServices\IUserQueryService.cs" />
+    <Compile Include="Contracts\Repositories\Base\IRepository.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Contracts\Repositories\Partial\IClientAuthorizationRepository.generated.cs" />
+    <Compile Include="Contracts\Repositories\Partial\IClientRepository.generated.cs" />
+    <Compile Include="Contracts\Repositories\Partial\IUserInfoRepository.generated.cs" />
+    <Compile Include="Contracts\Tasks\Code\IdentityUser.cs" />
+    <Compile Include="Contracts\Tasks\Code\UserPrincipal.cs" />
+    <Compile Include="Contracts\Tasks\Base\IIdentityTask.cs" />
+    <Compile Include="Contracts\Tasks\IClientAuthorizationTask.cs" />
+    <Compile Include="Contracts\Tasks\IClientTask.cs" />
+    <Compile Include="Contracts\Tasks\IUserTask.cs" />
+    <Compile Include="Dtos\Base\BaseDto.cs" />
+    <Compile Include="Dtos\ClientAuthorizationDto.cs" />
+    <Compile Include="Dtos\ClientDto.cs" />
+    <Compile Include="Dtos\TokenDto.cs" />
+    <Compile Include="Dtos\UserDto.cs" />
+    <Compile Include="Entity\Base\EntityWidthGuidType.cs" />
+    <Compile Include="Entity\Base\EntityWidthIntType.cs" />
+    <Compile Include="Entity\Client.cs" />
+    <Compile Include="Entity\ClientAuthorization.cs" />
+    <Compile Include="Entity\UserInfo.cs" />
+    <Compile Include="Enum\ClientState.cs" />
+    <Compile Include="Enum\AuthType.cs" />
+    <Compile Include="Enum\UserLoginRole.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Design\Domain_Design.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cotide.Framework\Cotide.Framework.csproj">
+      <Project>{3475c007-a405-4ff1-ab8d-0ac3112cee66}</Project>
+      <Name>Cotide.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Contracts\Mapper\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
