@@ -64,7 +64,7 @@ namespace Cotide.QueryServices
                          where user.UserName == userName
                          && user.Paw == paw
                          select user).SingleOrDefault();
-            return query.MapTo<  UserDto>();
+            return query.MapTo< UserDto>();
         }
 
         /// <summary>

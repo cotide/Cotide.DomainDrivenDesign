@@ -147,3 +147,4 @@ D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Framework\bin\Debug\EntityFram
 D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Framework\bin\Debug\System.Web.Helpers.xml
 D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Framework\obj\Debug\Cotide.Framework.dll
 D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Framework\obj\Debug\Cotide.Framework.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Framework\obj\Debug\Cotide.Framework.csprojResolveAssemblyReference.cache

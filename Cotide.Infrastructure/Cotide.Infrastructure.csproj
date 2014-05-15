@@ -104,6 +104,7 @@
 .\Repositories\Partial\UserInfoRepository.generated.cs
 </LastOutputs>
     </None>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Repositories\Base\RepositoriesDesign.cd" />
   </ItemGroup>

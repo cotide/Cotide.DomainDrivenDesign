@@ -31,7 +31,7 @@
     Type baseType = typeof(EntityByType<>);
     IEnumerable<Type> modelTypes = assembly.GetTypes().Where(m => m.IsAssignableToGenericType(baseType) && !m.IsAbstract);
  
- 
+   
     foreach(Type modelType in modelTypes)
     {
         T4ModelInfo model = new T4ModelInfo(modelType, true);   

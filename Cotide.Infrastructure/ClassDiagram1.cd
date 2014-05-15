@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cotide.Infrastructure.Repositories.Base.EFRepositoryBase&lt;TEntity, TKey&gt;">
+    <Position X="0.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAAAAAABAAAAQAAAAAAEAAEAAAAEIAAAAAAA=</HashCode>
+      <FileName>Repositories\Base\EFRepositoryBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="UnitOfWorkContent" />
+      <Property Name="EfContext" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Cotide.Domain.Contracts.Context.UnitOfWorkContextBase">
+    <Position X="4.75" Y="4" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Cotide.Domain.Contracts.Context.IUnitOfWorkContext">
+    <Position X="6" Y="1.5" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

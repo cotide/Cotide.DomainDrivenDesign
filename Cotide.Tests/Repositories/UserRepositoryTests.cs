@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
+using System.Transactions;
 using Autofac;
 using Cotide.Domain.Contracts.Context;
 using Cotide.Domain.Contracts.Repositories;
@@ -73,12 +74,32 @@ namespace Cotide.Tests.Repositories
             //var DB = new DefaultDbContext();
             //var user = DB.UserInfo.FirstOrDefault();
 
-            IRepository<UserInfo, Guid> bll = base.Get<IRepository<UserInfo, Guid>>();
+            //IRepository<UserInfo, Guid> bll = base.Get<IRepository<UserInfo, Guid>>();
+           
+            //var obj = bll.FindAll().FirstOrDefault();
+            //bll.Delete(obj);
+           // IClientTask clientTask = base.Get<IClientTask>();
 
 
-            var obj = bll.FindAll().FirstOrDefault();
-            bll.Delete(obj);
+            var userInfoRepository = base.Get<IUserInfoRepository>();
 
+            var clientRepository = base.Get<IClientRepository>();
+      
+            using (TransactionScope transaction = new TransactionScope())
+            {
+                 
+                    userInfoRepository.Create(new UserInfo()
+                    {
+                        UserName = "ZZ"
+                    });
+                    
+                    clientRepository.Create(new Client()
+                    {
+                        UserName = "AA"
+                    });
+              //  transaction.Complete();
+
+            }
 
             /*
             EfUnitOfWorkContext bll = new EfUnitOfWorkContext();

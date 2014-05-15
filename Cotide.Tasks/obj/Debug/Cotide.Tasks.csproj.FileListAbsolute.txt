@@ -120,7 +120,6 @@ D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\obj\Debug\Cotide.Tasks.csp
 D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\obj\Debug\Cotide.Tasks.dll
 D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\obj\Debug\Cotide.Tasks.pdb
 D:\文章\OAuth\项目\Cotide.OAuth.Demo\Cotide.Tasks\bin\Debug\AutoMapper.Net4.dll
-D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\AutoMapper.Net4.dll
 D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll.config
 D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Tasks.dll
 D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Cotide.Tasks.pdb
@@ -143,3 +142,4 @@ D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\Castle.Core.xm
 D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\obj\Debug\Cotide.Tasks.csprojResolveAssemblyReference.cache
 D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\obj\Debug\Cotide.Tasks.dll
 D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\obj\Debug\Cotide.Tasks.pdb
+D:\Person\Github\Cotide.DomainDrivenDesign\Cotide.Tasks\bin\Debug\AutoMapper.Net4.dll
