@@ -19,12 +19,23 @@ namespace Cotide.Infrastructure.Context
     /// </summary> 
     public class DefaultDbContext : DbContext
     {
+        /// <summary>
+        /// EF 上下文
+        /// </summary>
+        /// <returns></returns>
+        public static DefaultDbContext Create()
+        {
+            return new DefaultDbContext();
+        }
+
         public IDbSet<Client> Data { get; set; }
 
         public IDbSet<UserInfo> UserInfo { get; set; }
 
-        public IDbSet<ClientAuthorization> Message { get; set; } 
-         
+        public IDbSet<ClientAuthorization> ClientAuthorization { get; set; } 
+          
+        public IDbSet<Client> Client { get; set; } 
+
         public DefaultDbContext()
             : base("default")
         {
@@ -36,15 +47,18 @@ namespace Cotide.Infrastructure.Context
         {
              
         }  
+
+
+
         /// <summary>
         /// Fluent 方式配置Domain
         /// </summary>
         /// <param name="modelBuilder"></param>
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            new UserInfoMapper().RegistTo(modelBuilder.Configurations);
-            new ClientMapper().RegistTo(modelBuilder.Configurations);
-            new ClientAuthorizationMapper().RegistTo(modelBuilder.Configurations); 
+            //new UserInfoMapper().RegistTo(modelBuilder.Configurations);
+            //new ClientMapper().RegistTo(modelBuilder.Configurations);
+            //new ClientAuthorizationMapper().RegistTo(modelBuilder.Configurations); 
         }
          
     }

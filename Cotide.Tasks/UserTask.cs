@@ -5,28 +5,33 @@ using System.Text;
 using Cotide.Domain.Contracts.Commands.User;
 using Cotide.Domain.Contracts.Repositories;
 using Cotide.Domain.Contracts.Tasks;
+using Cotide.Infrastructure.Repositories.Base;
 
 namespace Cotide.Tasks
 {
-    public class UserTask : IUserTask
+    public class UserTask : DefaultRepositoryBase,  IUserTask
     {
-        protected IUserInfoRepository UserInfoRepository;
+       
 
-        public UserTask(IUserInfoRepository userInfoRepository)
+        public UserTask()
         {
-            UserInfoRepository = userInfoRepository;
+         
         }
 
         public void Create(CreateUserCommand command)
         {
-            UserInfoRepository.Create(new Domain.Entity.UserInfo()
+            using (var db = base.NewDb())
             {
-                CreateDateTime = DateTime.Now,
-                LastUpdateDateTime = DateTime.Now,
-                Paw = command.Paw,
-                RealName = command.RealName,
-                UserName = command.UserName
-            });
+                db.UserInfo.Add(new Domain.Entity.UserInfo()
+                {
+                    CreateDateTime = DateTime.Now,
+                    LastUpdateDateTime = DateTime.Now,
+                    Paw = command.Paw,
+                    RealName = command.RealName,
+                    UserName = command.UserName
+                });
+                db.SaveChanges();
+            }
         }
     }
 }

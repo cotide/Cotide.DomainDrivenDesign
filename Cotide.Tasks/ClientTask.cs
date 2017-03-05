@@ -8,67 +8,75 @@ using Cotide.Domain.Contracts.Tasks;
 using Cotide.Domain.Dtos;
 using Cotide.Domain.Entity;
 using Cotide.Domain.Enum;
+using Cotide.Framework.Extensions;
 using Cotide.Framework.Utility;
+using Cotide.Infrastructure.Repositories.Base;
 
 namespace Cotide.Tasks
 {
-    public class ClientTask : IClientTask
+    public class ClientTask : DefaultRepositoryBase ,IClientTask
     {
-        protected IClientRepository ClientRepository;
+       
 
-        protected IClientAuthorizationRepository ClientAuthorizationRepository;
-
-
-        public ClientTask(
-            IClientRepository clientRepository,
-            IClientAuthorizationRepository clientAuthorizationRepository)
-        {
-            ClientRepository = clientRepository;
-            ClientAuthorizationRepository = clientAuthorizationRepository;
+        public ClientTask( )
+        { 
         }
 
         public void Create(CreateClientCommand command)
         {
-            ClientRepository.Create(new Domain.Entity.Client()
+
+            using (var db = base.NewDb())
             {
-                ClientIdentifier = command.ClientIdentifier,
-                ClientSecret = command.ClientSecret,
-                LastUpdateDateTime = DateTime.Now,
-                CreateDateTime = DateTime.Now,
-                Name = command.Name,
-                Paw = command.Paw,
-                RedirectUrl = command.RedirectUrl,
-                UserName = command.UserName,
-                ClientState = command.ClientState,
-                Desc = command.Desc,
-                Img = command.Img
-            });
+                db.Client.Add(new Domain.Entity.Client()
+                {
+                    ClientIdentifier = command.ClientIdentifier,
+                    ClientSecret = command.ClientSecret,
+                    LastUpdateDateTime = DateTime.Now,
+                    CreateDateTime = DateTime.Now,
+                    Name = command.Name,
+                    Paw = command.Paw,
+                    RedirectUrl = command.RedirectUrl,
+                    UserName = command.UserName,
+                    ClientState = command.ClientState,
+                    Desc = command.Desc,
+                    Img = command.Img
+                });
+                db.SaveChanges();
+            }
         }
 
         public void Update(UpdateClientCommand command)
         {
-            var client = ClientRepository.FindAll().FirstOrDefault(x => x.Id == command.Id);
-            Guard.IsNotNull(client, "client");
-            client.UserName = command.UserName;
-            client.Paw = command.Paw;
-            client.Name = command.Name;
-            client.ClientSecret = command.ClientSecret;
-            client.ClientIdentifier = command.ClientIdentifier;
-            client.RedirectUrl = command.RedirectUrl;
-            client.Img = command.Img;
-            client.Desc = command.Desc;
-            if (command.ClientState != null)
+            using (var db = base.NewDb())
             { 
-               client.ClientState = (ClientState)command.ClientState;
-            } 
-            ClientRepository.Update(client);
+                var client = db.FindAll<Client,Guid>().FirstOrDefault(x => x.Id == command.Id);
+                Guard.IsNotNull(client, "client");
+                client.UserName = command.UserName;
+                client.Paw = command.Paw;
+                client.Name = command.Name;
+                client.ClientSecret = command.ClientSecret;
+                client.ClientIdentifier = command.ClientIdentifier;
+                client.RedirectUrl = command.RedirectUrl;
+                client.Img = command.Img;
+                client.Desc = command.Desc;
+                if (command.ClientState != null)
+                {
+                    client.ClientState = (ClientState) command.ClientState;
+                } 
+                db.SaveChanges();
+            }
         }
+
 
         public void Delete(DeleteClientCommand command)
         {
-            var client = ClientRepository.FindAll().FirstOrDefault(x => x.Id == command.Id);
-            Guard.IsNotNull(client, "client");
-            ClientRepository.Delete(client);
+            using (var db = base.NewDb())
+            {
+                var client = db.FindAll<Client,Guid>().FirstOrDefault(x => x.Id == command.Id);
+                Guard.IsNotNull(client, "client");
+                db.Client.Remove(client);
+                db.SaveChanges();
+            }
         }
 
     }

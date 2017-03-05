@@ -182,17 +182,17 @@ namespace Cotide.Tasks
                     break;
                     // 供应商用户
                     case UserLoginRole.Supplier:
-                  /*  var supplierId = Guid.Parse(userContent[0]);
-                    var supplier = _supplierRepository.FindAll().FirstOrDefault(x => x.Id == supplierId);
-                    Guard.IsNotNull(supplier, "supplier");
-                    return new IdentityUser()
-                        {
-                            CreateDate = supplier.CreateDateTime,
-                            ID = supplier.Id,
-                            RealName = supplier.RealName,
-                            UserLoginRole = UserLoginRole.Admin,
-                            UserName = supplier.UserName
-                        };  */
+                      /*  var supplierId = Guid.Parse(userContent[0]);
+                        var supplier = _supplierRepository.FindAll().FirstOrDefault(x => x.Id == supplierId);
+                        Guard.IsNotNull(supplier, "supplier");
+                        return new IdentityUser()
+                            {
+                                CreateDate = supplier.CreateDateTime,
+                                ID = supplier.Id,
+                                RealName = supplier.RealName,
+                                UserLoginRole = UserLoginRole.Admin,
+                                UserName = supplier.UserName
+                            };  */
                      break;
                     // 普通用户
                     case UserLoginRole.User:

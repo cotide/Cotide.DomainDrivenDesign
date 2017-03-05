@@ -8,69 +8,70 @@ using Cotide.Domain.Contracts.Repositories;
 using Cotide.Domain.Contracts.Tasks;
 using Cotide.Domain.Dtos;
 using Cotide.Domain.Entity;
+using Cotide.Framework.Extensions;
 using Cotide.Infrastructure.Repositories;
 using Cotide.Framework.Utility;
+using Cotide.Infrastructure.Repositories.Base;
 
 namespace Cotide.Tasks
 {
-    public class ClientAuthorizationTask : IClientAuthorizationTask
+    public class ClientAuthorizationTask : DefaultRepositoryBase ,IClientAuthorizationTask
     {
 
-        protected IClientRepository ClientRepository;
-        protected IClientAuthorizationRepository ClientAuthorizationRepository;
-        protected IUserInfoRepository UserInfoRepository;
+      
 
-        public ClientAuthorizationTask(
-            IClientRepository clientRepository,
-            IClientAuthorizationRepository clientAuthorizationRepository,
-            IUserInfoRepository userInfoRepository)
+        public ClientAuthorizationTask()
         {
-            ClientRepository = clientRepository;
-            ClientAuthorizationRepository = clientAuthorizationRepository;
-            UserInfoRepository = userInfoRepository;
+             
         }
 
 
         public TokenDto Create(CreateTokenCommand command)
         {
-            var client = ClientRepository.FindAll().FirstOrDefault(x => x.ClientIdentifier == command.ClientId);
+            using (var db = base.NewDb())
+            {
+                var client = db.Client.FirstOrDefault(x => x.ClientIdentifier == command.ClientId);
 
-           
-            var result = new ClientAuthorization()
-            {
-                Client = client,
-                CreateTime = DateTime.Now,
-                ExpirationTime = DateTime.Now.AddSeconds(command.TimeOut),
-                Token = Guid.NewGuid().ToString("N"),
-                AuthType = command.AuthType,
-                LastUpdateDateTime = DateTime.Now,
-                CreateDateTime = DateTime.Now
-            };
-            if (command.UserId != null)
-            {
-                var user = UserInfoRepository.Get((Guid)command.UserId);
-                result.User = user;
+                var result = new ClientAuthorization()
+                {
+                    Client = client,
+                    CreateTime = DateTime.Now,
+                    ExpirationTime = DateTime.Now.AddSeconds(command.TimeOut),
+                    Token = Guid.NewGuid().ToString("N"),
+                    AuthType = command.AuthType,
+                    LastUpdateDateTime = DateTime.Now,
+                    CreateDateTime = DateTime.Now
+                };
+                if (command.UserId != null)
+                {
+                    var user = db.FindOne<UserInfo, Guid>(x => x.Id == command.UserId);
+                    result.User = user;
+                }
+
+                db.ClientAuthorization.Add(result);
+                db.SaveChanges();
+
+                return new TokenDto()
+                {
+                    AuthType = command.AuthType,
+                    CreateTime = result.CreateDateTime,
+                    ExpirationTime = result.ExpirationTime,
+                    Id = result.Id,
+                    Token = result.Token 
+                };
             }
-
-            var id = ClientAuthorizationRepository.Create(result);
-
-            return new TokenDto()
-            {
-                AuthType = command.AuthType,
-                CreateTime = result.CreateDateTime,
-                ExpirationTime = result.ExpirationTime,
-                Id = result.Id,
-                Token = result.Token
-
-            };
         }
 
         public void Delete(DeleteTokenCommand command)
         {
-            var token = ClientAuthorizationRepository.FindAll().FirstOrDefault(x => x.Token == command.Code);
+            var token = base.NewDb().FindAll<ClientAuthorization,Guid>().FirstOrDefault(x => x.Token == command.Code);
             if (token != null)
             {
-                ClientAuthorizationRepository.Delete(token);
+                using (var db = base.NewDb())
+                { 
+                    db.ClientAuthorization.Remove(token); 
+                    db.SaveChanges();
+                }
             }
         }
     }

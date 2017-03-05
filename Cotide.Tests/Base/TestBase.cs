@@ -22,7 +22,7 @@ namespace Cotide.Tests.Base
             ComponentRegistrar.Init();
             // Mapper规则注入
             MapperConfig.Register();
-            //  HibernatingRhinos.Profiler.Appender.EntityFramework.EntityFrameworkProfiler.Initialize();
+            // HibernatingRhinos.Profiler.Appender.EntityFramework.EntityFrameworkProfiler.Initialize();
         }
 
         /// <summary>

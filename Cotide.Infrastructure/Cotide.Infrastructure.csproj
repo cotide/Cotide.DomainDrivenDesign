@@ -73,16 +73,15 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Context\Adapter\EFUnitOfWorkContext.cs" />
+    <Compile Include="Context\Base\ReadWriteDbContext.cs" />
+    <Compile Include="Context\Base\ReadDbContext.cs" />
     <Compile Include="Context\DefaultDBContext.cs" />
     <Compile Include="Context\Init\DbContextInitializer.cs" />
     <Compile Include="Mapper\ClientAuthorizationMapper.cs" />
     <Compile Include="Mapper\Partial\ClientAuthorizationMapper.generated.cs" />
     <Compile Include="Mapper\Partial\ClientMapper.generated.cs" />
     <Compile Include="Mapper\Partial\UserInfoMapper.generated.cs" />
-    <Compile Include="Repositories\Base\EFRepositoryBase.cs" />
-    <Compile Include="Repositories\Partial\ClientAuthorizationRepository.generated.cs" />
-    <Compile Include="Repositories\Partial\ClientRepository.generated.cs" />
-    <Compile Include="Repositories\Partial\UserInfoRepository.generated.cs" />
+    <Compile Include="Repositories\Base\RepositoryBase.cs" />
     <Compile Include="Tool\Initialize\DatabaseInitializer.cs" />
     <Compile Include="Tool\Initialize\InitData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -105,8 +104,8 @@
 </LastOutputs>
     </None>
     <None Include="ClassDiagram1.cd" />
+    <None Include="DbContextDiagram.cd" />
     <None Include="packages.config" />
-    <None Include="Repositories\Base\RepositoriesDesign.cd" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cotide.Domain\Cotide.Domain.csproj">

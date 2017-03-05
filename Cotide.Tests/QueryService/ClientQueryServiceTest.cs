@@ -18,20 +18,18 @@ namespace Cotide.Tests.QueryService
 
         [TestMethod()]
         public void FindAll()
-        {
-      /*      var clientQueryService = base.Get<IClientQueryService>();
-            var count = clientQueryService.FindAll();*/
+        { 
             var bll = base.Get<IClientRepository>();
             var result = bll.FindAll().Select(x=>new ClientDto()
             {
-                  ClientIdentifier =x.ClientIdentifier,
-                   ClientSecret =x.ClientSecret,
-                    CreateDateTime =x.CreateDateTime,
-                     Id =x.Id,
-                      LastUpdateDateTime =x.LastUpdateDateTime,
-                       Name =x.Name,
-                        Paw=x.Paw, RedirectUrl =x.RedirectUrl,
-                         UserName=x.UserName
+                ClientIdentifier =x.ClientIdentifier,
+                ClientSecret =x.ClientSecret,
+                CreateDateTime =x.CreateDateTime,
+                Id =x.Id,
+                LastUpdateDateTime =x.LastUpdateDateTime,
+                Name =x.Name,
+                Paw=x.Paw, RedirectUrl =x.RedirectUrl,
+                UserName=x.UserName
             }). ToList();
             Assert.IsTrue(result .Count> 0, "Pass");
         }
