@@ -5,6 +5,7 @@ using System.Text;
 using Cotide.Domain.Contracts.Commands.User;
 using Cotide.Domain.Contracts.Repositories;
 using Cotide.Domain.Contracts.Tasks;
+using Cotide.Domain.Entity;
 using Cotide.Infrastructure.Repositories.Base;
 
 namespace Cotide.Tasks
@@ -22,7 +23,7 @@ namespace Cotide.Tasks
         {
             using (var db = base.NewDb())
             {
-                db.UserInfo.Add(new Domain.Entity.UserInfo()
+                db.Add<UserInfo,Guid>(new UserInfo()
                 {
                     CreateDateTime = DateTime.Now,
                     LastUpdateDateTime = DateTime.Now,

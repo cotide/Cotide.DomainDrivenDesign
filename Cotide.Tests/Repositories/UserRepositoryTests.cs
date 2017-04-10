@@ -5,14 +5,12 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using System.Transactions;
-using Autofac;
-using Cotide.Domain.Contracts.Context;
+using Autofac; 
 using Cotide.Domain.Contracts.Repositories;
 using Cotide.Domain.Contracts.Repositories.Base;
 using Cotide.Domain.Entity;
 using Cotide.Domain.Enum;
-using Cotide.Infrastructure.Context;
-using Cotide.Infrastructure.Context.Adapter;
+using Cotide.Infrastructure.Context; 
 using Cotide.Infrastructure.Context.Init;
 using Cotide.Portal.App_Start.CastleWindsor;
 using Cotide.Tests.Base;
@@ -41,12 +39,13 @@ namespace Cotide.Tests.Repositories
             using (var context = new DefaultDbContext())
             {
                 context.Database.Initialize(true);
-                context.UserInfo.Add(new UserInfo()
+                context.Add<UserInfo,Guid>(new UserInfo()
                 {
 
                 });
                 context.SaveChanges();
             }
+
             // 初始化数据库
             // DbContextInitializer.Init();
             /*  var service1 = base.Get<IRepositoryWidthGuid<User>>();

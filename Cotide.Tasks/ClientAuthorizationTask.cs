@@ -30,8 +30,9 @@ namespace Cotide.Tasks
         {
             using (var db = base.NewDb())
             {
-                var client = db.Client.FirstOrDefault(x => x.ClientIdentifier == command.ClientId);
-
+                var client = db.FindOne<Client, Guid>(
+                    x => x.ClientIdentifier == command.ClientId);
+                 
                 var result = new ClientAuthorization()
                 {
                     Client = client,
@@ -42,13 +43,14 @@ namespace Cotide.Tasks
                     LastUpdateDateTime = DateTime.Now,
                     CreateDateTime = DateTime.Now
                 };
+
                 if (command.UserId != null)
                 {
                     var user = db.FindOne<UserInfo, Guid>(x => x.Id == command.UserId);
                     result.User = user;
                 }
 
-                db.ClientAuthorization.Add(result);
+                db.Add<ClientAuthorization, Guid>(result);
                 db.SaveChanges();
 
                 return new TokenDto()
@@ -65,13 +67,12 @@ namespace Cotide.Tasks
         public void Delete(DeleteTokenCommand command)
         {
             var token = base.NewDb().FindAll<ClientAuthorization,Guid>().FirstOrDefault(x => x.Token == command.Code);
-            if (token != null)
-            {
-                using (var db = base.NewDb())
-                { 
-                    db.ClientAuthorization.Remove(token); 
-                    db.SaveChanges();
-                }
+
+            if (token == null) return;
+            using (var db = base.NewDb())
+            { 
+                db.Remove<ClientAuthorization,Guid>(token); 
+                db.SaveChanges();
             }
         }
     }

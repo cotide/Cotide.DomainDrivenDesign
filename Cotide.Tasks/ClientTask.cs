@@ -22,12 +22,17 @@ namespace Cotide.Tasks
         { 
         }
 
+        /// <summary>
+        /// 创建客户端
+        /// </summary>
+        /// <param name="command"></param>
         public void Create(CreateClientCommand command)
         {
 
             using (var db = base.NewDb())
-            {
-                db.Client.Add(new Domain.Entity.Client()
+            { 
+
+                db.Add<Client,Guid>(new Client()
                 {
                     ClientIdentifier = command.ClientIdentifier,
                     ClientSecret = command.ClientSecret,
@@ -45,11 +50,17 @@ namespace Cotide.Tasks
             }
         }
 
+        /// <summary>
+        /// 更新客户端
+        /// </summary>
+        /// <param name="command"></param>
         public void Update(UpdateClientCommand command)
         {
             using (var db = base.NewDb())
-            { 
-                var client = db.FindAll<Client,Guid>().FirstOrDefault(x => x.Id == command.Id);
+            {
+                var client = db.FindOne<Client, Guid>(
+                    x => x.Id == command.Id); 
+
                 Guard.IsNotNull(client, "client");
                 client.UserName = command.UserName;
                 client.Paw = command.Paw;
@@ -72,9 +83,10 @@ namespace Cotide.Tasks
         {
             using (var db = base.NewDb())
             {
-                var client = db.FindAll<Client,Guid>().FirstOrDefault(x => x.Id == command.Id);
+                var client = db.FindAll<Client,Guid>()
+                    .FirstOrDefault(x => x.Id == command.Id);
                 Guard.IsNotNull(client, "client");
-                db.Client.Remove(client);
+                db.Remove<Client, Guid>(client);
                 db.SaveChanges();
             }
         }

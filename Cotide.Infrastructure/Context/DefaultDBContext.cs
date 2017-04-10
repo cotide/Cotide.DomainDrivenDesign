@@ -3,13 +3,21 @@ using System.Collections.Generic;
 using System.ComponentModel.Composition;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Configuration;
+using System.Data;
 using System.Data.Common;
 using System.Data.Entity;
+using System.Data.Entity.Core.Objects;
+using System.Data.Entity.Infrastructure;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Reflection;
 using System.Text;
 using Cotide.Domain.Entity;
+using Cotide.Framework.Domain;
+using Cotide.Framework.EF;
 using Cotide.Framework.Utility;
+using Cotide.Infrastructure.Context.Base;
 using Cotide.Infrastructure.Mapper;
 
 namespace Cotide.Infrastructure.Context
@@ -17,7 +25,7 @@ namespace Cotide.Infrastructure.Context
     /// <summary>
     /// 默认的DbContext 上下文
     /// </summary> 
-    public class DefaultDbContext : DbContext
+    public class DefaultDbContext : ReadWriteDbContext 
     {
         /// <summary>
         /// EF 上下文
@@ -27,29 +35,8 @@ namespace Cotide.Infrastructure.Context
         {
             return new DefaultDbContext();
         }
-
-        public IDbSet<Client> Data { get; set; }
-
-        public IDbSet<UserInfo> UserInfo { get; set; }
-
-        public IDbSet<ClientAuthorization> ClientAuthorization { get; set; } 
-          
-        public IDbSet<Client> Client { get; set; } 
-
-        public DefaultDbContext()
-            : base("default")
-        {
-        }
-
-
-        public DefaultDbContext(DbConnection existingConnection)
-            : base(existingConnection, true)
-        {
-             
-        }  
-
-
-
+         
+      
         /// <summary>
         /// Fluent 方式配置Domain
         /// </summary>

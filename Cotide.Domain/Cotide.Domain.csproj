@@ -85,9 +85,6 @@
     <Compile Include="Contracts\Commands\Client\DeleteClientCommand.cs" />
     <Compile Include="Contracts\Commands\Client\UpdateClientCommand.cs" />
     <Compile Include="Contracts\Commands\User\CreateUserCommand.cs" />
-    <Compile Include="Contracts\Context\IUnitOfWork.cs" />
-    <Compile Include="Contracts\Context\IUnitOfWorkContext.cs" />
-    <Compile Include="Contracts\Context\UnitOfWorkContextBase.cs" />
     <Compile Include="Contracts\QueryServices\IClientAuthorizationQueryService.cs" />
     <Compile Include="Contracts\QueryServices\IClientQueryService.cs" />
     <Compile Include="Contracts\QueryServices\IUserQueryService.cs" />
