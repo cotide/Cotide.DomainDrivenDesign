@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Castle.Windsor;
 using Cotide.Portal.App_Start;
-using Cotide.Portal.App_Start.CastleWindsor;
+using Cotide.Portal.Controllers.CastleWindsor;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 

@@ -1,16 +1,12 @@
-﻿using System.Linq;
-using System.Reflection;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
-using Cotide.Domain;
-using Cotide.Domain.Contracts.Repositories.Base;
 using Cotide.Framework.Extensions.Castle;
-using Cotide.Framework.Extensions.WindsorService; 
+using Cotide.Framework.Extensions.WindsorService;
 using Cotide.Portal.Controllers.Controllers;
 using Microsoft.Practices.ServiceLocation;
 
-namespace Cotide.Portal.App_Start.CastleWindsor
+namespace Cotide.Portal.Controllers.CastleWindsor
 {
     /// <summary>
     /// 依赖注入辅助类

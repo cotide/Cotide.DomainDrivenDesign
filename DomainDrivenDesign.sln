@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cotide.Tests", "Cotide.Tests\Cotide.Tests.csproj", "{99976909-9040-4204-BDB2-B491973E7037}"
 EndProject
@@ -32,7 +32,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cotide.Portal", "Cotide.Por
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cotide.Portal.Controllers", "Cotide.Portal.Controllers\Cotide.Portal.Controllers.csproj", "{64C6E4A6-FCA9-4D96-BAD5-590DF6C36E8C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{3C314D8C-E3CD-46CC-89F4-04C77EC48C5C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{3C314D8C-E3CD-46CC-89F4-04C77EC48C5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cotide.QueryServices", "Cotide.QueryServices\Cotide.QueryServices.csproj", "{06C7FE3E-138A-445D-A208-F95D5B126F19}"
 EndProject

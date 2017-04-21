@@ -10,7 +10,7 @@ using System.Web.Security;
 using Cotide.Domain.Contracts.Tasks.Code;
 using Cotide.Domain.Dtos;
 using Cotide.Framework.Utility;
-using Cotide.Portal.App_Start.CastleWindsor;
+using Cotide.Portal.Controllers.CastleWindsor;
 using Cotide.Portal.Controllers.Core;
 using Cotide.Portal.Controllers.ViewModels.User;
 using Microsoft.Practices.ServiceLocation;

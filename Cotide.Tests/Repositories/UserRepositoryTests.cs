@@ -12,7 +12,6 @@ using Cotide.Domain.Entity;
 using Cotide.Domain.Enum;
 using Cotide.Infrastructure.Context; 
 using Cotide.Infrastructure.Context.Init;
-using Cotide.Portal.App_Start.CastleWindsor;
 using Cotide.Tests.Base;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Cotide.Infrastructure.Repositories;

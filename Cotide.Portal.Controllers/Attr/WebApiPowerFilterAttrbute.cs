@@ -11,7 +11,7 @@ using System.Web.Http.Filters;
 using System.Web.Mvc; 
 using System.Configuration;
 using Cotide.Domain.Contracts.QueryServices;
-using Cotide.Portal.App_Start.CastleWindsor;
+using Cotide.Portal.Controllers.CastleWindsor;
 using Microsoft.Practices.ServiceLocation;
 
 namespace Peacock.DataBase.Controllers.ApiControllers

@@ -20,9 +20,10 @@ namespace Cotide.Portal.Controllers.ApiControllers
 
         public IClientAuthorizationQueryService ClientAuthorizationQueryService; 
         public IUserQueryService UserQueryService; 
-        public UserController( )
+
+        public UserController()
         {
-            ClientAuthorizationQueryService =base.Get<IClientAuthorizationQueryService>() ;
+            ClientAuthorizationQueryService = base.Get<IClientAuthorizationQueryService>() ;
             UserQueryService = base.Get<IUserQueryService>();
         }
 

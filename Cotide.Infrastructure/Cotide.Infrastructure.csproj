@@ -81,7 +81,6 @@
     <Compile Include="Mapper\Partial\ClientMapper.generated.cs" />
     <Compile Include="Mapper\Partial\UserInfoMapper.generated.cs" />
     <Compile Include="Repositories\Base\RepositoryBase.cs" />
-    <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Tool\Initialize\DatabaseInitializer.cs" />
     <Compile Include="Tool\Initialize\InitData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

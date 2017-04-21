@@ -57,11 +57,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClientAuthorizationTask.cs" />
-    <Compile Include="ClientTask.cs" />
-    <Compile Include="IdentityTask.cs" />
+    <Compile Include="Business\ClientAuthorizationTask.cs" />
+    <Compile Include="Business\ClientTask.cs" />
+    <Compile Include="Business\IdentityTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserTask.cs" />
+    <Compile Include="Business\UserTask.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cotide.Domain\Cotide.Domain.csproj">
